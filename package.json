@@ -1,0 +1,30 @@
+{
+  "name": "hpl-scripts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "patch-package": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./build --target bun",
+    "start": "bun run build/index.js",
+    "build:start": "bun run build && bun run start",
+    "start:dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.18.1",
+    "@dfinity/candid": "^0.18.1",
+    "@dfinity/identity": "^0.18.1",
+    "@dfinity/principal": "^0.18.1",
+    "@elysiajs/cron": "^0.7.0",
+    "@research-ag/hpl-client": "./packages/hpl-io/client",
+    "elysia": "^0.7.18",
+    "prom-client": "^15.0.0",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.2.2"
+  }
+}
