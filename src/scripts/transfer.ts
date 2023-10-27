@@ -102,17 +102,17 @@ export const runOrPickupSimpleTransfer = async (
           );
         }),
         catchError((e: any) => {
-          loggers.errors(aggregatorPrincipal?.toString() || "unknown");
+          loggers.errors(aggregatorPrincipal?.toString() || "all");
           handleError(localId, e, logCallback);
-          console.log("errorBBB");
+          console.log("catch poll error: ", aggregatorPrincipal?.toString() || "all");
           return of();
         })
       )
     );
   } catch (e: any) {
-    loggers.errors(aggregatorPrincipal?.toString() || "unknown");
+    loggers.errors(aggregatorPrincipal?.toString() || "all");
+    console.log("try catch error: ", aggregatorPrincipal?.toString() || "all");
     handleError(localId, e, logCallback);
-    console.log("errorAAA");
   }
 };
 
@@ -142,6 +142,8 @@ function handleError (
   logCallback: (log: string) => void
 ) {
   const errorMessage = e.errorKey !== undefined ? `Error: ${e.toString()}` : "Error: " + e.message;
+
+  console.log("errorMessage", errorMessage);
 
   logCallback("errorMessage");
 

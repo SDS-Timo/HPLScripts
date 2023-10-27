@@ -8,6 +8,7 @@ import { cron } from '@elysiajs/cron'
 import { Principal } from "@dfinity/principal";
 const port = process.env.PORT || 3000
 const interval_time = process.env.INTERVAL_TIME || '*/10 * * * * *';
+const script_mode = process.env.SCRIPT_MODE || "ALL";
 
 /// ============== PROMETHEUS ==============
 const register = new Prometheus.Registry();
@@ -45,7 +46,10 @@ new Elysia()
             name: 'execute-transfer',
             pattern: interval_time,
             run() {
-                StartProcess();
+                if(script_mode === "ALL")
+                    StartProcess();
+                if(script_mode === "AGGREGATOR")
+                    StartProcessPerAggregator()
             }
         }),
     )
@@ -95,7 +99,7 @@ async function StartProcess() {
     if(!global.transactions)  global.transactions = [];
     const promises = [new Promise(async (resolve, reject) => {
 
-        requested();
+        requested("all");
 
         const start = Date.now();
         await MakeTransfer(client);
@@ -115,18 +119,52 @@ async function StartProcess() {
     Promise.all(promises)
 }
 
+async function StartProcessPerAggregator() {
+    const wallet = CreateSeedPrincipals();
+    const client = startClients(wallet); 
+    const aggregators = await client.getAggregators();
+    const promises = [];
+    console.log("aggregators", aggregators.map((a)=>a.canisterPrincipal.toText()));
+
+    if(!global.transactions)  global.transactions = [];
+    for (const aggregator of aggregators) {
+        const promise = new Promise(async (resolve, reject) => {
+            const aggPrincipal = aggregator.canisterPrincipal.toText()
+            requested(aggPrincipal);
+    
+            const start = Date.now();
+            await MakeTransfer(client,aggregator.canisterPrincipal);
+            const seconds =  (Date.now() - start);
+                
+            try {
+                transfers_time.labels({aggregator:aggPrincipal}).observe(seconds);   
+            } catch (error) {
+                console.log("error", error);
+                reject(error);
+            }
+            
+            global.transactions = [];
+            resolve(true);
+        })
+        promises.push(promise);
+    }
+   
+   
+    Promise.all(promises)
+}
+
 // Counts errors per aggregator
-function errors():void {
-    error_counter.inc();
+function errors(aggregator: string):void {
+    error_counter.labels({aggregator:aggregator}).inc();
 }
 
 // Counts requests per aggregator
-function requested():void {
-    requested_counter.inc();
+function requested(aggregator: string):void {
+    requested_counter.labels({aggregator:aggregator}).inc();
 }
 
 // Process transactions
-function MakeTransfer(client:HPLClient) {
+function MakeTransfer(client:HPLClient, aggregator?: string | Principal | null) {
    
     const localId = Date.now();
     const from: TransferAccountReference = {
@@ -137,7 +175,7 @@ function MakeTransfer(client:HPLClient) {
         type: 'sub',
         id: BigInt(2),
     }
-   return runOrPickupSimpleTransfer(localId, [from, to,BigInt(1), "max"], client, ()=>{},{errors})
+   return runOrPickupSimpleTransfer(localId, [from, to,BigInt(1), "max"], client, ()=>{},{errors},aggregator)
 }
 
 // Initialize client of HPLClient
