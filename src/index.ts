@@ -124,7 +124,6 @@ async function StartProcessPerAggregator() {
     const client = startClients(wallet); 
     const aggregators = await client.getAggregators();
     const promises = [];
-    console.log("aggregators", aggregators.map((a)=>a.canisterPrincipal.toText()));
 
     if(!global.transactions)  global.transactions = [];
     for (const aggregator of aggregators) {
