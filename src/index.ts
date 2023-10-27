@@ -16,7 +16,7 @@ const transfers_time = new Prometheus.Histogram({
     name: 'transfer_time',
     help: 'Count of time took to transfer',
     labelNames: ['aggregator'],
-    buckets: Prometheus.linearBuckets(500, 500, 200),
+    buckets: Prometheus.linearBuckets(0, 1000, 50),
 });
 register.registerMetric(transfers_time);
 
@@ -91,46 +91,42 @@ function CreateSeedPrincipals():Wallet {
 async function StartProcess() {
     const wallet = CreateSeedPrincipals();
     const client = startClients(wallet); 
-    const result = await client.ledger.aggregators();
 
     if(!global.transactions)  global.transactions = [];
-    const promises = [];
+    const promises = [new Promise(async (resolve, reject) => {
 
-    for (const entry of result) {
-        promises.push(new Promise(async (resolve, reject) => {
-            const aggregator = entry.principal.toText();
-            requested(aggregator);
-            const start = Date.now();
-            await MakeTransfer(client,entry.principal);
-            const seconds =  (Date.now() - start);
-                
-            try {
-                transfers_time.labels({"aggregator": aggregator}).observe(seconds);   
-            } catch (error) {
-                console.log("error", error);
-            }
+        requested();
+
+        const start = Date.now();
+        await MakeTransfer(client);
+        const seconds =  (Date.now() - start);
             
-            global.transactions = [];
-            resolve(true);
-        }));
-    }
-    console.log("aggregators", result.map((x)=>x.principal.toText()), " count", result.length);
+        try {
+            transfers_time.labels({aggregator:"all"}).observe(seconds);   
+        } catch (error) {
+            console.log("error", error);
+            reject(error);
+        }
+        
+        global.transactions = [];
+        resolve(true);
+    })];
    
     Promise.all(promises)
 }
 
 // Counts errors per aggregator
-function errors(aggregator: string):void {
-    error_counter.labels({"aggregator":aggregator}).inc();
+function errors():void {
+    error_counter.inc();
 }
 
 // Counts requests per aggregator
-function requested(aggregator: string):void {
-    requested_counter.labels({"aggregator":aggregator}).inc();
+function requested():void {
+    requested_counter.inc();
 }
 
 // Process transactions
-function MakeTransfer(client:HPLClient, aggregator: string | Principal | null) {
+function MakeTransfer(client:HPLClient) {
    
     const localId = Date.now();
     const from: TransferAccountReference = {
@@ -141,7 +137,7 @@ function MakeTransfer(client:HPLClient, aggregator: string | Principal | null) {
         type: 'sub',
         id: BigInt(2),
     }
-   return runOrPickupSimpleTransfer(localId, [from, to,BigInt(1), "max"], client, ()=>{},{errors},aggregator)
+   return runOrPickupSimpleTransfer(localId, [from, to,BigInt(1), "max"], client, ()=>{},{errors})
 }
 
 // Initialize client of HPLClient
