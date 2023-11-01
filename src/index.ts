@@ -21,14 +21,21 @@ const register = new Prometheus.Registry();
 function getData() {
   if (script_mode === "FUNCTIONAL")
     return {
-      historgram: "tracked_time_function",
+      histogram: {
+        name: "tracked_time_function", 
+        buckets: Prometheus.linearBuckets(0, 1000, 25)
+      },
       error_counter: "tracked_errors_function",
       requested_counter: "tracked_requests_function",
       labels: ["function"],
+      
     };
 
   return {
-    historgram: "transfer_time",
+    histogram: {
+      name: "transfer_time",
+      buckets: Prometheus.linearBuckets(0, 1000, 50)
+    },
     error_counter: "transfer_errors",
     requested_counter: "transfer_requests",
     labels: ["aggregator"],
@@ -36,10 +43,10 @@ function getData() {
 }
 
 const transfers_time = new Prometheus.Histogram({
-  name: getData().historgram,
+  name: getData().histogram.name,
   help: "Count of time took to process",
   labelNames: getData().labels,
-  buckets: Prometheus.linearBuckets(0, 1000, 50),
+  buckets: getData().histogram.buckets,
 });
 register.registerMetric(transfers_time);
 
