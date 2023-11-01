@@ -20,5 +20,6 @@
       "bun-types" // add Bun global
     ]
   },
-  "include": ["**/**/*.ts","**/*.ts"],
+  "extends": "./tsconfig.paths.json",
+  "include": ["**/**/*.ts","**/*.ts","types","."],
 }

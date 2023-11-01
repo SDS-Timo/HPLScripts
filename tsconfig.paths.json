@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@candid/*": ["candid/*"],
+      }
+    }
+  }
+  

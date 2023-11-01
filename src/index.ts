@@ -6,9 +6,14 @@ import Prometheus from "prom-client";
 import { Elysia } from "elysia";
 import { cron } from "@elysiajs/cron";
 import { Principal } from "@dfinity/principal";
+import { _SERVICE as IngressActor } from "@candid/service.did.d";
+import { idlFactory as IngressIDLFactory } from "@candid/candid.did";
+import { Actor, HttpAgent, Identity } from "@dfinity/agent";
+
 const port = process.env.PORT || 3000;
 const interval_time = process.env.INTERVAL_TIME || "*/10 * * * * *";
 const script_mode = process.env.SCRIPT_MODE || "ALL";
+const AGENT_HOST = process.env.AGENT_HOST || "https://icp0.io";
 
 /// ============== PROMETHEUS ==============
 const register = new Prometheus.Registry();
@@ -104,7 +109,7 @@ async function controller(request: Request): Promise<Response> {
 // =============== Process Funtions ==============
 // CreateSeeds
 function CreateSeedPrincipals(): Wallet {
-  return seedToIdentity(Bun.env.PRINCIPAL1_SECRET_KEY || "");
+  return seedToIdentity(Bun.env.PRINCIPAL1_SECRET_KEY || "") satisfies Identity | null;
 }
 
 // StartProcess
@@ -176,45 +181,57 @@ async function StartProcessFunction() {
   const client = startClients(wallet);
 
   if (!global.transactions) global.transactions = [];
-  const promises = [
-    new Promise(async (resolve, reject) => {
-      //requested counter
-      requested_counter.labels({ function: "updateVirtualAccount" }).inc();
+  // if (wallet) {
+    const promises = [
+      new Promise(async (resolve, reject) => {
+        //requested counter
+        requested_counter.labels({ function: "updateVirtualAccount" }).inc();
 
-      // start timer
-      const start = Date.now();
+        // start timer
+        const start = Date.now();
 
-      // update virtual account
-      await updateVirtualAccount(client)
-        .then((a) => console.log("result", a))
-        .catch((error) => {
+        // update virtual account
+        await updateVirtualAccount(wallet!)
+          .then((a) => console.log("result", a))
+          .catch((error) => {
+            console.log("error", error);
+            error_counter.labels({ function: "updateVirtualAccount" }).inc();
+          });
+        // end timer
+        const seconds = Date.now() - start;
+
+        // register time
+        try {
+          transfers_time
+            .labels({ function: "updateVirtualAccount" })
+            .observe(seconds);
+        } catch (error) {
           console.log("error", error);
-          error_counter.labels({ function: "updateVirtualAccount" }).inc();
-        });
-      // end timer
-      const seconds = Date.now() - start;
-     
-      // register time
-      try {
-        transfers_time.labels({ function: "updateVirtualAccount" }).observe(seconds);
-      } catch (error) {
-        console.log("error", error);
-        reject(error);
-      }
+          reject(error);
+        }
 
-      global.transactions = [];
-      resolve(true);
-    }),
-  ];
+        global.transactions = [];
+        resolve(true);
+      }),
+    ];
 
-  Promise.all(promises);
+    Promise.all(promises);
+  // }
 }
 
-function updateVirtualAccount(client: HPLClient) {
-  return client.ledger.updateVirtualAccount(BigInt(1), {
-    backingAccount: BigInt(0),
-    expiration: 1000,
-    state: undefined,
+function updateVirtualAccount(wallet?: Identity) {
+  const myAgent = new HttpAgent({
+    identity: wallet,
+    host: AGENT_HOST,
+  });
+  const ingressActor = Actor.createActor<IngressActor>(IngressIDLFactory, {
+    agent: myAgent,
+    canisterId: "rqx66-eyaaa-aaaap-aaona-cai",
+  });
+  return ingressActor.updateVirtualAccount(BigInt(0), {
+    backingAccount: [BigInt(0)],
+    state: [{ ft_set: BigInt(1000) }],
+    expiration: [BigInt(1000)],
   });
 }
 
