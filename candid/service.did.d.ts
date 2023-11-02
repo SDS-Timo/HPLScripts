@@ -56,6 +56,7 @@ export interface LedgerIngressAPI {
         err: { InvalidArguments: string } | { NoSpaceForAccount: null };
       }
   >;
+  ping: ActorMethod<[], bigint>;
   remoteAccountInfo: ActorMethod<[RemoteSelector], Array<[RemoteId, AccountType]>>;
   state: ActorMethod<
     [

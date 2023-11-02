@@ -77,6 +77,7 @@ export const idlFactory = ({ IDL }) => {
           ],
           [],
         ),
+      "ping": IDL.Func([], [IDL.Int], ["query"]),
       "ftInfo" : IDL.Func(
           [IdSelector],
           [

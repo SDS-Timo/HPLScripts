@@ -192,6 +192,8 @@ type LedgerIngressAPI = service {
     }
   ) query;
 
+  ping: () -> (int);
+
   // Return the immutable data of virtual accounts, which is:
   // - the type (the ft asset id),
   // - the access principal.
