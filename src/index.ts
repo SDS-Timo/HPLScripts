@@ -76,18 +76,18 @@ const transfers_time = new Prometheus.Histogram({
 register.registerMetric(transfers_time);
 
 const time_response = new Prometheus.Histogram({
-  name: getData().data.histogram_response?.name || "",
+  name: getData().data.histogram_response?.name || "ping_time_response",
   help: "Count of time took to process",
   labelNames: getData().data.labels,
-  buckets: getData().data.histogram_response?.buckets,
+  buckets: getData().data.histogram_response?.buckets || [],
 });
 register.registerMetric(time_response);
 
 const time_call = new Prometheus.Histogram({
-  name: getData().data.histogram_call?.name || "",
+  name: getData().data.histogram_call?.name || "ping_time_call",
   help: "Count of time took to process",
   labelNames: getData().data.labels,
-  buckets: getData().data.histogram_call?.buckets,
+  buckets: getData().data.histogram_call?.buckets  || [],
 });
 register.registerMetric(time_call);
 
