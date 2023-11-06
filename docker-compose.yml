@@ -1,14 +1,18 @@
 version: "3.8"
 services:
   hpltransfers:
-    image: public.ecr.aws/j5z8d4p7/hpltransfers:latest
+    build:
+      context: .
+    # image: public.ecr.aws/j5z8d4p7/hpltransfers:latest
     restart: always
     environment:
-      - PORT=9000
+      - PORT=7000
       - LEDGER_PRINCIPAL=rqx66-eyaaa-aaaap-aaona-cai
       - DFX_NETWORK=ic
       - PRINCIPAL1_SECRET_KEY=Wallet123HPlScripts
       - PRINCIPAL2_SECRET_KEY=Wallet123HPlScripts2
       - INTERVAL_TIME=*/5 * * * * *
+    volumes: 
+      - ./logs:/home/bun/app/logs
     ports:
-      - 9000:9000
+      - 7000:7000

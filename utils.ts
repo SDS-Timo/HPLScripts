@@ -19,3 +19,27 @@ export function seedToIdentity(seed: string): Wallet {
     }
     return null;
 };
+
+// Append request's logs to the log's file
+export async function  log(requestLog: any[]) {
+  const LOG_PATH = `logs/${getDate()}.log`;
+  try {
+      // console.log((new Date()).toISOString() +" "+requestLog.join(' '));
+      let logs = await Bun.file(LOG_PATH).text();
+      // Write (file's content + request's log) 
+      logs = logs + '\n'
+      await Bun.write(LOG_PATH, logs.concat((new Date()).toISOString() +" "+ requestLog.join(' ')));
+  } catch (e) {
+      // If log's file doesn't exist, write new content
+      await Bun.write(LOG_PATH, ''.concat((new Date()).toISOString() +" "+ requestLog.join(' ')));
+  }
+}
+
+function getDate(){
+  let objectDate = new Date();
+  let day = objectDate.getDate();
+  let month = objectDate.getMonth();
+  let year = objectDate.getFullYear();
+  let format1 = month + "-" + day + "-" + year;
+  return format1;
+}

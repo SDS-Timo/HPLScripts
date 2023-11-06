@@ -1,0 +1,855 @@
+
+Mon Nov 06 2023 12:41:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5057
+Mon Nov 06 2023 12:41:30 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5197
+Mon Nov 06 2023 12:41:31 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5887
+Mon Nov 06 2023 12:41:31 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5896
+Mon Nov 06 2023 12:41:31 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5972
+Mon Nov 06 2023 12:41:35 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5331
+Mon Nov 06 2023 12:41:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5373
+Mon Nov 06 2023 12:41:35 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5655
+Mon Nov 06 2023 12:41:36 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6081
+Mon Nov 06 2023 12:41:36 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6225
+Mon Nov 06 2023 12:41:40 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4885
+Mon Nov 06 2023 12:41:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5772
+Mon Nov 06 2023 12:41:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5817
+Mon Nov 06 2023 12:41:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6525
+Mon Nov 06 2023 12:41:43 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7649
+Mon Nov 06 2023 12:41:45 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5287
+Mon Nov 06 2023 12:41:45 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5565
+Mon Nov 06 2023 12:41:45 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5692
+Mon Nov 06 2023 12:41:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5871
+Mon Nov 06 2023 12:41:46 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6221
+Mon Nov 06 2023 12:41:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4886
+Mon Nov 06 2023 12:41:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4981
+Mon Nov 06 2023 12:41:50 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5160
+Mon Nov 06 2023 12:41:51 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6021
+Mon Nov 06 2023 12:41:52 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7682
+Mon Nov 06 2023 12:41:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5474
+Mon Nov 06 2023 12:41:55 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5668
+Mon Nov 06 2023 12:41:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5745
+Mon Nov 06 2023 12:41:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6262
+Mon Nov 06 2023 12:41:58 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8534
+Mon Nov 06 2023 12:42:00 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5320
+Mon Nov 06 2023 12:42:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5454
+Mon Nov 06 2023 12:42:00 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5713
+Mon Nov 06 2023 12:42:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6032
+Mon Nov 06 2023 12:42:02 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7138
+Mon Nov 06 2023 12:42:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5290
+Mon Nov 06 2023 12:42:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5376
+Mon Nov 06 2023 12:42:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5481
+Mon Nov 06 2023 12:42:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6035
+Mon Nov 06 2023 12:42:09 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 9276
+Mon Nov 06 2023 12:42:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4985
+Mon Nov 06 2023 12:42:10 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5135
+Mon Nov 06 2023 12:42:10 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5199
+Mon Nov 06 2023 12:42:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6506
+Mon Nov 06 2023 12:42:11 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6788
+Mon Nov 06 2023 12:42:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5016
+Mon Nov 06 2023 12:42:15 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5160
+Mon Nov 06 2023 12:42:15 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5512
+Mon Nov 06 2023 12:42:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6361
+Mon Nov 06 2023 12:42:16 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6636
+Mon Nov 06 2023 12:42:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6363
+Mon Nov 06 2023 12:42:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6535
+Mon Nov 06 2023 12:42:21 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6591
+Mon Nov 06 2023 12:42:21 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6717
+Mon Nov 06 2023 12:42:22 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7337
+Mon Nov 06 2023 12:42:25 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4891
+Mon Nov 06 2023 12:42:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5596
+Mon Nov 06 2023 12:42:26 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6060
+Mon Nov 06 2023 12:42:26 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6106
+Mon Nov 06 2023 12:42:28 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7359
+Mon Nov 06 2023 12:42:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5081
+Mon Nov 06 2023 12:42:30 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5252
+Mon Nov 06 2023 12:42:30 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5318
+Mon Nov 06 2023 12:42:31 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6231
+Mon Nov 06 2023 12:42:31 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6504
+Mon Nov 06 2023 12:42:34 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4172
+Mon Nov 06 2023 12:42:34 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4720
+Mon Nov 06 2023 12:42:35 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5734
+Mon Nov 06 2023 12:42:36 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6022
+Mon Nov 06 2023 12:42:36 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6213
+Mon Nov 06 2023 12:42:39 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4571
+Mon Nov 06 2023 12:42:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6102
+Mon Nov 06 2023 12:42:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6114
+Mon Nov 06 2023 12:42:41 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6261
+Mon Nov 06 2023 12:42:41 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6291
+Mon Nov 06 2023 12:42:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4959
+Mon Nov 06 2023 12:42:45 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5460
+Mon Nov 06 2023 12:42:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6011
+Mon Nov 06 2023 12:42:46 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6354
+Mon Nov 06 2023 12:42:47 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7480
+Mon Nov 06 2023 12:42:50 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5368
+Mon Nov 06 2023 12:42:51 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6059
+Mon Nov 06 2023 12:42:51 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6156
+Mon Nov 06 2023 12:42:51 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6287
+Mon Nov 06 2023 12:42:52 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7099
+Mon Nov 06 2023 12:42:55 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5447
+Mon Nov 06 2023 12:42:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5540
+Mon Nov 06 2023 12:42:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6023
+Mon Nov 06 2023 12:42:56 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6202
+Mon Nov 06 2023 12:42:57 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7327
+Mon Nov 06 2023 12:43:00 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5011
+Mon Nov 06 2023 12:43:01 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5870
+Mon Nov 06 2023 12:43:01 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6260
+Mon Nov 06 2023 12:43:01 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6305
+Mon Nov 06 2023 12:43:05 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5462
+Mon Nov 06 2023 12:43:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5691
+Mon Nov 06 2023 12:43:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5729
+Mon Nov 06 2023 12:43:06 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6313
+Mon Nov 06 2023 12:43:07 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7191
+Mon Nov 06 2023 12:43:11 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5858
+Mon Nov 06 2023 12:43:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5922
+Mon Nov 06 2023 12:43:11 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6117
+Mon Nov 06 2023 12:43:11 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6181
+Mon Nov 06 2023 12:43:12 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6870
+Mon Nov 06 2023 12:43:14 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4899
+Mon Nov 06 2023 12:43:15 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5256
+Mon Nov 06 2023 12:43:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5377
+Mon Nov 06 2023 12:43:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5618
+Mon Nov 06 2023 12:43:15 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5804
+Mon Nov 06 2023 12:43:20 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4730
+Mon Nov 06 2023 12:43:21 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5831
+Mon Nov 06 2023 12:43:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5996
+Mon Nov 06 2023 12:43:21 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6578
+Mon Nov 06 2023 12:43:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6646
+Mon Nov 06 2023 12:43:24 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4763
+Mon Nov 06 2023 12:43:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5734
+Mon Nov 06 2023 12:43:26 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5878
+Mon Nov 06 2023 12:43:26 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5908
+Mon Nov 06 2023 12:43:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6211
+Mon Nov 06 2023 12:43:30 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5776
+Mon Nov 06 2023 12:43:31 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6021
+Mon Nov 06 2023 12:43:31 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6052
+Mon Nov 06 2023 12:43:31 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6099
+Mon Nov 06 2023 12:43:32 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7135
+Mon Nov 06 2023 12:43:35 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5492
+Mon Nov 06 2023 12:43:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5623
+Mon Nov 06 2023 12:43:35 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5699
+Mon Nov 06 2023 12:43:36 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6152
+Mon Nov 06 2023 12:43:36 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6358
+Mon Nov 06 2023 12:43:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4927
+Mon Nov 06 2023 12:43:40 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4954
+Mon Nov 06 2023 12:43:40 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5521
+Mon Nov 06 2023 12:43:40 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5649
+Mon Nov 06 2023 12:43:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5899
+Mon Nov 06 2023 12:43:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5178
+Mon Nov 06 2023 12:43:45 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5215
+Mon Nov 06 2023 12:43:46 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5741
+Mon Nov 06 2023 12:43:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5822
+Mon Nov 06 2023 12:43:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5875
+Mon Nov 06 2023 12:43:50 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5145
+Mon Nov 06 2023 12:43:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5365
+Mon Nov 06 2023 12:43:52 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6931
+Mon Nov 06 2023 12:43:52 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6973
+Mon Nov 06 2023 12:43:52 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7073
+Mon Nov 06 2023 12:43:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5418
+Mon Nov 06 2023 12:43:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5480
+Mon Nov 06 2023 12:43:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5845
+Mon Nov 06 2023 12:43:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6451
+Mon Nov 06 2023 12:43:57 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7484
+Mon Nov 06 2023 12:44:00 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5663
+Mon Nov 06 2023 12:44:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5898
+Mon Nov 06 2023 12:44:02 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6782
+Mon Nov 06 2023 12:44:02 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7072
+Mon Nov 06 2023 12:44:02 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7083
+Mon Nov 06 2023 12:44:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4997
+Mon Nov 06 2023 12:44:06 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5696
+Mon Nov 06 2023 12:44:07 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6716
+Mon Nov 06 2023 12:44:07 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6840
+Mon Nov 06 2023 12:44:08 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7553
+Mon Nov 06 2023 12:44:10 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5278
+Mon Nov 06 2023 12:44:11 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5568
+Mon Nov 06 2023 12:44:11 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5701
+Mon Nov 06 2023 12:44:12 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6563
+Mon Nov 06 2023 12:44:12 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6819
+Mon Nov 06 2023 12:44:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5272
+Mon Nov 06 2023 12:44:15 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5572
+Mon Nov 06 2023 12:44:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5677
+Mon Nov 06 2023 12:44:16 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6265
+Mon Nov 06 2023 12:44:17 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7359
+Mon Nov 06 2023 12:44:20 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5419
+Mon Nov 06 2023 12:44:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5492
+Mon Nov 06 2023 12:44:20 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5579
+Mon Nov 06 2023 12:44:21 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5967
+Mon Nov 06 2023 12:44:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6649
+Mon Nov 06 2023 12:44:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5013
+Mon Nov 06 2023 12:44:25 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5447
+Mon Nov 06 2023 12:44:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5805
+Mon Nov 06 2023 12:44:26 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5864
+Mon Nov 06 2023 12:44:27 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7712
+Mon Nov 06 2023 12:44:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5307
+Mon Nov 06 2023 12:44:31 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5978
+Mon Nov 06 2023 12:44:31 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6094
+Mon Nov 06 2023 12:44:31 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6212
+Mon Nov 06 2023 12:44:32 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7235
+Mon Nov 06 2023 12:44:35 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5015
+Mon Nov 06 2023 12:44:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5228
+Mon Nov 06 2023 12:44:37 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6672
+Mon Nov 06 2023 12:44:37 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6714
+Mon Nov 06 2023 12:44:37 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6990
+Mon Nov 06 2023 12:44:40 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4942
+Mon Nov 06 2023 12:44:40 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4998
+Mon Nov 06 2023 12:44:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5210
+Mon Nov 06 2023 12:44:40 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5470
+Mon Nov 06 2023 12:44:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6511
+Mon Nov 06 2023 12:44:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5237
+Mon Nov 06 2023 12:44:46 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5527
+Mon Nov 06 2023 12:44:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5642
+Mon Nov 06 2023 12:44:46 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5814
+Mon Nov 06 2023 12:44:47 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6294
+Mon Nov 06 2023 12:44:50 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5395
+Mon Nov 06 2023 12:44:51 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6175
+Mon Nov 06 2023 12:44:51 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6201
+Mon Nov 06 2023 12:44:51 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6303
+Mon Nov 06 2023 12:44:51 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6329
+Mon Nov 06 2023 12:44:55 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5131
+Mon Nov 06 2023 12:44:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5720
+Mon Nov 06 2023 12:44:57 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7479
+Mon Nov 06 2023 12:44:58 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 8039
+Mon Nov 06 2023 12:45:00 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5161
+Mon Nov 06 2023 12:45:00 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5185
+Mon Nov 06 2023 12:45:00 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5723
+Mon Nov 06 2023 12:45:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6676
+Mon Nov 06 2023 12:45:01 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6742
+Mon Nov 06 2023 12:45:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5572
+Mon Nov 06 2023 12:45:06 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5864
+Mon Nov 06 2023 12:45:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6463
+Mon Nov 06 2023 12:45:06 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6727
+Mon Nov 06 2023 12:45:07 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7030
+Mon Nov 06 2023 12:45:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5660
+Mon Nov 06 2023 12:45:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5735
+Mon Nov 06 2023 12:45:10 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5737
+Mon Nov 06 2023 12:45:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6627
+Mon Nov 06 2023 12:45:12 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7829
+Mon Nov 06 2023 12:45:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5878
+Mon Nov 06 2023 12:45:16 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5894
+Mon Nov 06 2023 12:45:16 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6063
+Mon Nov 06 2023 12:45:16 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6309
+Mon Nov 06 2023 12:45:17 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6868
+Mon Nov 06 2023 12:45:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5014
+Mon Nov 06 2023 12:45:20 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5387
+Mon Nov 06 2023 12:45:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6099
+Mon Nov 06 2023 12:45:22 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7069
+Mon Nov 06 2023 12:45:22 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7269
+Mon Nov 06 2023 12:45:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5367
+Mon Nov 06 2023 12:45:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6158
+Mon Nov 06 2023 12:45:27 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7052
+Mon Nov 06 2023 12:45:27 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7186
+Mon Nov 06 2023 12:45:27 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7364
+Mon Nov 06 2023 12:45:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5445
+Mon Nov 06 2023 12:45:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5465
+Mon Nov 06 2023 12:45:31 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6238
+Mon Nov 06 2023 12:45:32 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7220
+Mon Nov 06 2023 12:45:33 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8171
+Mon Nov 06 2023 12:45:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4998
+Mon Nov 06 2023 12:45:36 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5879
+Mon Nov 06 2023 12:45:36 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6069
+Mon Nov 06 2023 12:45:36 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6112
+Mon Nov 06 2023 12:45:38 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7828
+Mon Nov 06 2023 12:45:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6050
+Mon Nov 06 2023 12:45:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6318
+Mon Nov 06 2023 12:45:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6389
+Mon Nov 06 2023 12:45:42 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6980
+Mon Nov 06 2023 12:45:42 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7381
+Mon Nov 06 2023 12:45:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5328
+Mon Nov 06 2023 12:45:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6079
+Mon Nov 06 2023 12:45:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6231
+Mon Nov 06 2023 12:45:47 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6912
+Mon Nov 06 2023 12:45:47 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7355
+Mon Nov 06 2023 12:45:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4872
+Mon Nov 06 2023 12:45:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5321
+Mon Nov 06 2023 12:45:53 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7953
+Mon Nov 06 2023 12:45:53 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 8009
+Mon Nov 06 2023 12:45:53 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8474
+Mon Nov 06 2023 12:45:55 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5066
+Mon Nov 06 2023 12:45:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5362
+Mon Nov 06 2023 12:45:55 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5491
+Mon Nov 06 2023 12:45:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5860
+Mon Nov 06 2023 12:45:56 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6188
+Mon Nov 06 2023 12:45:59 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4375
+Mon Nov 06 2023 12:46:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5034
+Mon Nov 06 2023 12:46:00 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5172
+Mon Nov 06 2023 12:46:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6455
+Mon Nov 06 2023 12:46:03 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 8800
+Mon Nov 06 2023 12:46:05 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5633
+Mon Nov 06 2023 12:46:05 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5795
+Mon Nov 06 2023 12:46:06 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5869
+Mon Nov 06 2023 12:46:06 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6017
+Mon Nov 06 2023 12:46:06 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6325
+Mon Nov 06 2023 12:46:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5393
+Mon Nov 06 2023 12:46:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5585
+Mon Nov 06 2023 12:46:11 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6043
+Mon Nov 06 2023 12:46:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6077
+Mon Nov 06 2023 12:46:11 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6150
+Mon Nov 06 2023 12:46:15 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5058
+Mon Nov 06 2023 12:46:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5513
+Mon Nov 06 2023 12:46:17 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6827
+Mon Nov 06 2023 12:46:17 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7067
+Mon Nov 06 2023 12:46:35 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5404
+Mon Nov 06 2023 12:46:35 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5732
+Mon Nov 06 2023 12:46:35 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5752
+Mon Nov 06 2023 12:46:36 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6333
+Mon Nov 06 2023 12:46:36 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6671
+Mon Nov 06 2023 12:46:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5956
+Mon Nov 06 2023 12:46:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6005
+Mon Nov 06 2023 12:46:41 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6654
+Mon Nov 06 2023 12:46:42 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6990
+Mon Nov 06 2023 12:46:42 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7330
+Mon Nov 06 2023 12:46:45 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5212
+Mon Nov 06 2023 12:46:45 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5503
+Mon Nov 06 2023 12:46:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5781
+Mon Nov 06 2023 12:46:46 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6082
+Mon Nov 06 2023 12:46:48 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 8362
+Mon Nov 06 2023 12:46:50 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5369
+Mon Nov 06 2023 12:46:51 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5982
+Mon Nov 06 2023 12:46:51 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5992
+Mon Nov 06 2023 12:46:51 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6115
+Mon Nov 06 2023 12:46:51 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6144
+Mon Nov 06 2023 12:46:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4977
+Mon Nov 06 2023 12:46:56 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5988
+Mon Nov 06 2023 12:46:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6075
+Mon Nov 06 2023 12:46:56 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6370
+Mon Nov 06 2023 12:46:57 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7218
+Mon Nov 06 2023 12:47:01 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5523
+Mon Nov 06 2023 12:47:01 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5652
+Mon Nov 06 2023 12:47:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6074
+Mon Nov 06 2023 12:47:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6239
+Mon Nov 06 2023 12:47:02 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6513
+Mon Nov 06 2023 12:47:04 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4618
+Mon Nov 06 2023 12:47:05 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5362
+Mon Nov 06 2023 12:47:06 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6223
+Mon Nov 06 2023 12:47:06 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6490
+Mon Nov 06 2023 12:47:08 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8299
+Mon Nov 06 2023 12:47:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5588
+Mon Nov 06 2023 12:47:11 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5679
+Mon Nov 06 2023 12:47:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5757
+Mon Nov 06 2023 12:47:11 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5987
+Mon Nov 06 2023 12:47:11 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6016
+Mon Nov 06 2023 12:47:15 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5714
+Mon Nov 06 2023 12:47:16 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6306
+Mon Nov 06 2023 12:47:16 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6415
+Mon Nov 06 2023 12:47:17 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7299
+Mon Nov 06 2023 12:47:18 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8146
+Mon Nov 06 2023 12:47:20 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4930
+Mon Nov 06 2023 12:47:20 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4990
+Mon Nov 06 2023 12:47:22 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6970
+Mon Nov 06 2023 12:47:22 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7151
+Mon Nov 06 2023 12:47:23 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7754
+Mon Nov 06 2023 12:47:27 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7328
+Mon Nov 06 2023 12:47:27 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7331
+Mon Nov 06 2023 12:47:27 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7349
+Mon Nov 06 2023 12:47:27 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7436
+Mon Nov 06 2023 12:47:28 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 8209
+Mon Nov 06 2023 12:47:30 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5148
+Mon Nov 06 2023 12:47:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5275
+Mon Nov 06 2023 12:47:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5583
+Mon Nov 06 2023 12:47:30 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5922
+Mon Nov 06 2023 12:47:33 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8216
+Mon Nov 06 2023 12:47:37 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7007
+Mon Nov 06 2023 12:47:37 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7483
+Mon Nov 06 2023 12:47:37 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7501
+Mon Nov 06 2023 12:47:37 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7788
+Mon Nov 06 2023 12:47:38 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8334
+Mon Nov 06 2023 12:47:40 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5302
+Mon Nov 06 2023 12:47:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5683
+Mon Nov 06 2023 12:47:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6263
+Mon Nov 06 2023 12:47:42 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6670
+Mon Nov 06 2023 12:47:42 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6885
+Mon Nov 06 2023 12:47:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4934
+Mon Nov 06 2023 12:47:46 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5943
+Mon Nov 06 2023 12:47:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6069
+Mon Nov 06 2023 12:47:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6293
+Mon Nov 06 2023 12:47:48 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8001
+Mon Nov 06 2023 12:47:50 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4897
+Mon Nov 06 2023 12:47:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5001
+Mon Nov 06 2023 12:47:50 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5528
+Mon Nov 06 2023 12:47:51 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5792
+Mon Nov 06 2023 12:47:51 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5976
+Mon Nov 06 2023 12:47:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5084
+Mon Nov 06 2023 12:47:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5096
+Mon Nov 06 2023 12:47:56 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5902
+Mon Nov 06 2023 12:47:56 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6624
+Mon Nov 06 2023 12:47:57 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6890
+Mon Nov 06 2023 12:48:00 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4968
+Mon Nov 06 2023 12:48:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5301
+Mon Nov 06 2023 12:48:01 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6332
+Mon Nov 06 2023 12:48:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6348
+Mon Nov 06 2023 12:48:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6355
+Mon Nov 06 2023 12:48:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6021
+Mon Nov 06 2023 12:48:06 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6295
+Mon Nov 06 2023 12:48:06 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6348
+Mon Nov 06 2023 12:48:06 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6644
+Mon Nov 06 2023 12:48:07 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7307
+Mon Nov 06 2023 12:48:11 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6932
+Mon Nov 06 2023 12:48:12 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7081
+Mon Nov 06 2023 12:48:12 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7291
+Mon Nov 06 2023 12:48:12 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7732
+Mon Nov 06 2023 12:48:14 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 9128
+Mon Nov 06 2023 12:48:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5487
+Mon Nov 06 2023 12:48:17 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6704
+Mon Nov 06 2023 12:48:17 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7142
+Mon Nov 06 2023 12:48:18 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7734
+Mon Nov 06 2023 12:48:18 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8443
+Mon Nov 06 2023 12:48:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6289
+Mon Nov 06 2023 12:48:22 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6805
+Mon Nov 06 2023 12:48:22 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7094
+Mon Nov 06 2023 12:48:22 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7140
+Mon Nov 06 2023 12:48:23 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7979
+Mon Nov 06 2023 12:48:26 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5874
+Mon Nov 06 2023 12:48:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5957
+Mon Nov 06 2023 12:48:26 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6037
+Mon Nov 06 2023 12:48:26 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6206
+Mon Nov 06 2023 12:48:26 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6285
+Mon Nov 06 2023 12:48:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5385
+Mon Nov 06 2023 12:48:30 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5503
+Mon Nov 06 2023 12:48:31 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6121
+Mon Nov 06 2023 12:48:31 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6304
+Mon Nov 06 2023 12:48:31 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6517
+Mon Nov 06 2023 12:48:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5189
+Mon Nov 06 2023 12:48:35 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5533
+Mon Nov 06 2023 12:48:37 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6873
+Mon Nov 06 2023 12:48:37 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6896
+Mon Nov 06 2023 12:48:38 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 8662
+Mon Nov 06 2023 12:48:40 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5749
+Mon Nov 06 2023 12:48:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5813
+Mon Nov 06 2023 12:48:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5971
+Mon Nov 06 2023 12:48:42 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6923
+Mon Nov 06 2023 12:48:42 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7667
+Mon Nov 06 2023 12:48:46 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6175
+Mon Nov 06 2023 12:48:46 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6246
+Mon Nov 06 2023 12:48:47 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6447
+Mon Nov 06 2023 12:48:48 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7502
+Mon Nov 06 2023 12:48:48 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 8121
+Mon Nov 06 2023 12:48:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5059
+Mon Nov 06 2023 12:48:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5612
+Mon Nov 06 2023 12:48:52 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7074
+Mon Nov 06 2023 12:48:52 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7344
+Mon Nov 06 2023 12:48:54 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 9016
+Mon Nov 06 2023 12:48:56 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6218
+Mon Nov 06 2023 12:48:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6377
+Mon Nov 06 2023 12:48:57 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6865
+Mon Nov 06 2023 12:48:57 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7174
+Mon Nov 06 2023 12:48:57 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7517
+Mon Nov 06 2023 12:49:00 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5532
+Mon Nov 06 2023 12:49:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5877
+Mon Nov 06 2023 12:49:02 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6585
+Mon Nov 06 2023 12:49:03 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8056
+Mon Nov 06 2023 12:49:04 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 8652
+Mon Nov 06 2023 12:49:04 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4404
+Mon Nov 06 2023 12:49:05 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5321
+Mon Nov 06 2023 12:49:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5517
+Mon Nov 06 2023 12:49:06 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6212
+Mon Nov 06 2023 12:49:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6255
+Mon Nov 06 2023 12:49:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5324
+Mon Nov 06 2023 12:49:11 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5674
+Mon Nov 06 2023 12:49:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5942
+Mon Nov 06 2023 12:49:11 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6182
+Mon Nov 06 2023 12:49:12 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6710
+Mon Nov 06 2023 12:49:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5488
+Mon Nov 06 2023 12:49:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6092
+Mon Nov 06 2023 12:49:16 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6331
+Mon Nov 06 2023 12:49:17 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7118
+Mon Nov 06 2023 12:49:17 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7348
+Mon Nov 06 2023 12:49:18 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 3919
+Mon Nov 06 2023 12:49:20 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5137
+Mon Nov 06 2023 12:49:20 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5572
+Mon Nov 06 2023 12:49:21 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6040
+Mon Nov 06 2023 12:49:22 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7113
+Mon Nov 06 2023 12:49:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5145
+Mon Nov 06 2023 12:49:25 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5151
+Mon Nov 06 2023 12:49:25 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5289
+Mon Nov 06 2023 12:49:25 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5609
+Mon Nov 06 2023 12:49:27 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7030
+Mon Nov 06 2023 12:49:29 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4834
+Mon Nov 06 2023 12:49:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5515
+Mon Nov 06 2023 12:49:31 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6154
+Mon Nov 06 2023 12:49:31 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6492
+Mon Nov 06 2023 12:49:31 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6620
+Mon Nov 06 2023 12:49:36 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5670
+Mon Nov 06 2023 12:49:36 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6145
+Mon Nov 06 2023 12:49:37 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6701
+Mon Nov 06 2023 12:49:37 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6980
+Mon Nov 06 2023 12:49:37 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7291
+Mon Nov 06 2023 12:49:40 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4974
+Mon Nov 06 2023 12:49:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5341
+Mon Nov 06 2023 12:49:40 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5579
+Mon Nov 06 2023 12:49:40 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5713
+Mon Nov 06 2023 12:49:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5960
+Mon Nov 06 2023 12:49:44 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4250
+Mon Nov 06 2023 12:49:45 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5790
+Mon Nov 06 2023 12:49:46 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6139
+Mon Nov 06 2023 12:49:47 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7022
+Mon Nov 06 2023 12:49:47 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7091
+Mon Nov 06 2023 12:49:50 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5250
+Mon Nov 06 2023 12:49:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5305
+Mon Nov 06 2023 12:49:50 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5634
+Mon Nov 06 2023 12:49:51 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5933
+Mon Nov 06 2023 12:49:51 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6216
+Mon Nov 06 2023 12:49:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5351
+Mon Nov 06 2023 12:49:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5562
+Mon Nov 06 2023 12:49:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5802
+Mon Nov 06 2023 12:49:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6320
+Mon Nov 06 2023 12:49:57 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7242
+Mon Nov 06 2023 12:49:59 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4587
+Mon Nov 06 2023 12:50:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5736
+Mon Nov 06 2023 12:50:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6441
+Mon Nov 06 2023 12:50:01 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6554
+Mon Nov 06 2023 12:50:02 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7079
+Mon Nov 06 2023 12:50:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4945
+Mon Nov 06 2023 12:50:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5167
+Mon Nov 06 2023 12:50:05 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5340
+Mon Nov 06 2023 12:50:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5604
+Mon Nov 06 2023 12:50:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6235
+Mon Nov 06 2023 12:50:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5470
+Mon Nov 06 2023 12:50:11 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6251
+Mon Nov 06 2023 12:50:11 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6462
+Mon Nov 06 2023 12:50:12 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6968
+Mon Nov 06 2023 12:50:13 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8665
+Mon Nov 06 2023 12:50:15 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4913
+Mon Nov 06 2023 12:50:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5076
+Mon Nov 06 2023 12:50:17 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7127
+Mon Nov 06 2023 12:50:17 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7175
+Mon Nov 06 2023 12:50:18 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8099
+Mon Nov 06 2023 12:50:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4917
+Mon Nov 06 2023 12:50:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5161
+Mon Nov 06 2023 12:50:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5364
+Mon Nov 06 2023 12:50:22 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6450
+Mon Nov 06 2023 12:50:22 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7114
+Mon Nov 06 2023 12:50:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5148
+Mon Nov 06 2023 12:50:25 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5505
+Mon Nov 06 2023 12:50:25 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5658
+Mon Nov 06 2023 12:50:28 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7983
+Mon Nov 06 2023 12:50:29 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 9239
+Mon Nov 06 2023 12:50:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5014
+Mon Nov 06 2023 12:50:30 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5060
+Mon Nov 06 2023 12:50:30 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5654
+Mon Nov 06 2023 12:50:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5758
+Mon Nov 06 2023 12:50:32 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7113
+Mon Nov 06 2023 12:50:35 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5525
+Mon Nov 06 2023 12:50:36 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6030
+Mon Nov 06 2023 12:50:36 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6073
+Mon Nov 06 2023 12:50:36 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6332
+Mon Nov 06 2023 12:50:37 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7125
+Mon Nov 06 2023 12:50:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5331
+Mon Nov 06 2023 12:50:40 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5364
+Mon Nov 06 2023 12:50:41 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6137
+Mon Nov 06 2023 12:50:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6323
+Mon Nov 06 2023 12:50:41 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6443
+Mon Nov 06 2023 12:50:45 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5478
+Mon Nov 06 2023 12:50:46 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5789
+Mon Nov 06 2023 12:50:46 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5864
+Mon Nov 06 2023 12:50:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6086
+Mon Nov 06 2023 12:50:47 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7292
+Mon Nov 06 2023 12:50:50 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4833
+Mon Nov 06 2023 12:50:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4888
+Mon Nov 06 2023 12:50:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4935
+Mon Nov 06 2023 12:50:51 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5915
+Mon Nov 06 2023 12:50:52 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7555
+Mon Nov 06 2023 12:50:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5389
+Mon Nov 06 2023 12:50:55 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5419
+Mon Nov 06 2023 12:50:55 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5577
+Mon Nov 06 2023 12:50:56 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6308
+Mon Nov 06 2023 12:50:58 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8038
+Mon Nov 06 2023 12:51:00 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4939
+Mon Nov 06 2023 12:51:00 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5883
+Mon Nov 06 2023 12:51:01 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6335
+Mon Nov 06 2023 12:51:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6650
+Mon Nov 06 2023 12:51:02 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7832
+Mon Nov 06 2023 12:51:05 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5126
+Mon Nov 06 2023 12:51:05 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5147
+Mon Nov 06 2023 12:51:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5323
+Mon Nov 06 2023 12:51:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5325
+Mon Nov 06 2023 12:51:06 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5871
+Mon Nov 06 2023 12:51:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5273
+Mon Nov 06 2023 12:51:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5712
+Mon Nov 06 2023 12:51:12 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7007
+Mon Nov 06 2023 12:51:12 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7086
+Mon Nov 06 2023 12:51:12 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7484
+Mon Nov 06 2023 12:51:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5146
+Mon Nov 06 2023 12:51:15 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5369
+Mon Nov 06 2023 12:51:15 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5414
+Mon Nov 06 2023 12:51:15 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5475
+Mon Nov 06 2023 12:51:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5542
+Mon Nov 06 2023 12:51:20 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5408
+Mon Nov 06 2023 12:51:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5795
+Mon Nov 06 2023 12:51:21 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6002
+Mon Nov 06 2023 12:51:21 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6294
+Mon Nov 06 2023 12:51:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6440
+Mon Nov 06 2023 12:51:25 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5088
+Mon Nov 06 2023 12:51:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5470
+Mon Nov 06 2023 12:51:25 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5561
+Mon Nov 06 2023 12:51:25 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5677
+Mon Nov 06 2023 12:51:26 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6145
+Mon Nov 06 2023 12:51:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5163
+Mon Nov 06 2023 12:51:30 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5401
+Mon Nov 06 2023 12:51:30 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5560
+Mon Nov 06 2023 12:51:31 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5789
+Mon Nov 06 2023 12:51:32 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6905
+Mon Nov 06 2023 12:51:35 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5297
+Mon Nov 06 2023 12:51:35 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5339
+Mon Nov 06 2023 12:51:35 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5461
+Mon Nov 06 2023 12:51:35 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5694
+Mon Nov 06 2023 12:51:36 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6104
+Mon Nov 06 2023 12:51:40 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4984
+Mon Nov 06 2023 12:51:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5015
+Mon Nov 06 2023 12:51:40 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5155
+Mon Nov 06 2023 12:51:41 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6257
+Mon Nov 06 2023 12:51:42 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7768
+Mon Nov 06 2023 12:51:45 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5265
+Mon Nov 06 2023 12:51:45 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5293
+Mon Nov 06 2023 12:51:45 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5668
+Mon Nov 06 2023 12:51:47 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7741
+Mon Nov 06 2023 12:51:50 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5385
+Mon Nov 06 2023 12:51:50 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5418
+Mon Nov 06 2023 12:51:51 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6083
+Mon Nov 06 2023 12:51:51 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6336
+Mon Nov 06 2023 12:51:52 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7272
+Mon Nov 06 2023 12:51:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5074
+Mon Nov 06 2023 12:51:55 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5492
+Mon Nov 06 2023 12:51:55 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5760
+Mon Nov 06 2023 12:51:56 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6246
+Mon Nov 06 2023 12:51:57 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7302
+Mon Nov 06 2023 12:52:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4848
+Mon Nov 06 2023 12:52:00 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5006
+Mon Nov 06 2023 12:52:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5919
+Mon Nov 06 2023 12:52:01 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6146
+Mon Nov 06 2023 12:52:02 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6860
+Mon Nov 06 2023 12:52:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4902
+Mon Nov 06 2023 12:52:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4997
+Mon Nov 06 2023 12:52:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5597
+Mon Nov 06 2023 12:52:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5832
+Mon Nov 06 2023 12:52:06 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5842
+Mon Nov 06 2023 12:52:09 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4678
+Mon Nov 06 2023 12:52:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5270
+Mon Nov 06 2023 12:52:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5438
+Mon Nov 06 2023 12:52:10 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5473
+Mon Nov 06 2023 12:52:11 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5916
+Mon Nov 06 2023 12:52:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5204
+Mon Nov 06 2023 12:52:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6252
+Mon Nov 06 2023 12:52:16 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6271
+Mon Nov 06 2023 12:52:17 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7485
+Mon Nov 06 2023 12:52:20 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5321
+Mon Nov 06 2023 12:52:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5398
+Mon Nov 06 2023 12:52:20 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5625
+Mon Nov 06 2023 12:52:21 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5977
+Mon Nov 06 2023 12:52:22 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7136
+Mon Nov 06 2023 12:52:24 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4643
+Mon Nov 06 2023 12:52:25 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5025
+Mon Nov 06 2023 12:52:25 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5250
+Mon Nov 06 2023 12:52:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5908
+Mon Nov 06 2023 12:52:26 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5962
+Mon Nov 06 2023 12:52:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5008
+Mon Nov 06 2023 12:52:30 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5071
+Mon Nov 06 2023 12:52:30 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5268
+Mon Nov 06 2023 12:52:30 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5313
+Mon Nov 06 2023 12:52:32 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6886
+Mon Nov 06 2023 12:52:34 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4482
+Mon Nov 06 2023 12:52:34 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4600
+Mon Nov 06 2023 12:52:35 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5240
+Mon Nov 06 2023 12:52:35 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5519
+Mon Nov 06 2023 12:52:37 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7561
+Mon Nov 06 2023 12:52:39 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 3892
+Mon Nov 06 2023 12:52:40 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5418
+Mon Nov 06 2023 12:52:40 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5530
+Mon Nov 06 2023 12:52:41 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6211
+Mon Nov 06 2023 12:52:41 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6212
+Mon Nov 06 2023 12:52:45 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5438
+Mon Nov 06 2023 12:52:45 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5681
+Mon Nov 06 2023 12:52:46 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6150
+Mon Nov 06 2023 12:52:47 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7423
+Mon Nov 06 2023 12:52:47 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7766
+Mon Nov 06 2023 12:52:50 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4828
+Mon Nov 06 2023 12:52:51 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5296
+Mon Nov 06 2023 12:52:51 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5830
+Mon Nov 06 2023 12:52:52 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6277
+Mon Nov 06 2023 12:52:53 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7231
+Mon Nov 06 2023 12:52:55 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5240
+Mon Nov 06 2023 12:52:55 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5511
+Mon Nov 06 2023 12:52:56 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6118
+Mon Nov 06 2023 12:52:57 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7754
+Mon Nov 06 2023 12:52:58 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7982
+Mon Nov 06 2023 12:53:00 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5138
+Mon Nov 06 2023 12:53:00 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5516
+Mon Nov 06 2023 12:53:00 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5789
+Mon Nov 06 2023 12:53:01 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6055
+Mon Nov 06 2023 12:53:01 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6059
+Mon Nov 06 2023 12:53:05 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5304
+Mon Nov 06 2023 12:53:05 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5600
+Mon Nov 06 2023 12:53:05 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5671
+Mon Nov 06 2023 12:53:06 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5897
+Mon Nov 06 2023 12:53:07 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7358
+Mon Nov 06 2023 12:53:10 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4908
+Mon Nov 06 2023 12:53:10 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5601
+Mon Nov 06 2023 12:53:10 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5756
+Mon Nov 06 2023 12:53:12 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7132
+Mon Nov 06 2023 12:53:12 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7182
+Mon Nov 06 2023 12:53:15 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4774
+Mon Nov 06 2023 12:53:15 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5119
+Mon Nov 06 2023 12:53:15 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5235
+Mon Nov 06 2023 12:53:16 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5785
+Mon Nov 06 2023 12:53:16 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6299
+Mon Nov 06 2023 12:53:19 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4663
+Mon Nov 06 2023 12:53:20 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5335
+Mon Nov 06 2023 12:53:20 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5881
+Mon Nov 06 2023 12:53:21 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6434
+Mon Nov 06 2023 12:53:21 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6838
+Mon Nov 06 2023 12:53:25 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5122
+Mon Nov 06 2023 12:53:25 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5519
+Mon Nov 06 2023 12:53:26 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5955
+Mon Nov 06 2023 12:53:26 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5981
+Mon Nov 06 2023 12:53:26 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6047
+Mon Nov 06 2023 12:53:30 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5126
+Mon Nov 06 2023 12:53:30 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5652
+Mon Nov 06 2023 12:53:31 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6392
+Mon Nov 06 2023 12:53:32 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6753
+Mon Nov 06 2023 12:53:33 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8349
+Mon Nov 06 2023 12:53:35 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5713
+Mon Nov 06 2023 12:53:36 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6129
+Mon Nov 06 2023 12:53:36 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6236
+Mon Nov 06 2023 12:53:36 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6350
+Mon Nov 06 2023 12:53:37 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7575
+Mon Nov 06 2023 12:53:40 GMT+0000 (Western European Standard Time) aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5063
+Mon Nov 06 2023 12:53:41 GMT+0000 (Western European Standard Time) aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5848
+Mon Nov 06 2023 12:53:41 GMT+0000 (Western European Standard Time) aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6362
+Mon Nov 06 2023 12:53:41 GMT+0000 (Western European Standard Time) aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6452
+Mon Nov 06 2023 12:53:41 GMT+0000 (Western European Standard Time) aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6489
+Mon Nov 06 2023 13:04:45 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4698
+Mon Nov 06 2023 13:04:45 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5357
+Mon Nov 06 2023 13:04:45 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5484
+Mon Nov 06 2023 13:04:45 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5561
+Mon Nov 06 2023 13:04:46 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6228
+Mon Nov 06 2023 13:04:50 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 4941
+Mon Nov 06 2023 13:04:50 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5419
+Mon Nov 06 2023 13:04:50 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5522
+Mon Nov 06 2023 13:04:52 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7102
+Mon Nov 06 2023 13:04:52 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7126
+Mon Nov 06 2023 13:04:54 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4470
+Mon Nov 06 2023 13:04:54 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4729
+Mon Nov 06 2023 13:04:55 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4962
+Mon Nov 06 2023 13:04:55 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4994
+Mon Nov 06 2023 13:04:57 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7144
+Mon Nov 06 2023 13:05:00 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5195
+Mon Nov 06 2023 13:05:00 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5303
+Mon Nov 06 2023 13:05:00 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5686
+Mon Nov 06 2023 13:05:01 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6150
+Mon Nov 06 2023 13:05:02 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7576
+Mon Nov 06 2023 13:05:05 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4642
+Mon Nov 06 2023 13:05:05 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4718
+Mon Nov 06 2023 13:05:05 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5006
+Mon Nov 06 2023 13:05:07 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6682
+Mon Nov 06 2023 13:05:07 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6784
+Mon Nov 06 2023 13:05:09 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 4080
+Mon Nov 06 2023 13:05:11 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5860
+Mon Nov 06 2023 13:05:12 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6508
+Mon Nov 06 2023 13:05:12 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6916
+Mon Nov 06 2023 13:05:12 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6947
+Mon Nov 06 2023 13:05:15 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5376
+Mon Nov 06 2023 13:05:15 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5425
+Mon Nov 06 2023 13:05:15 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5446
+Mon Nov 06 2023 13:05:16 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6396
+Mon Nov 06 2023 13:05:18 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8564
+Mon Nov 06 2023 13:05:21 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5490
+Mon Nov 06 2023 13:05:21 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5500
+Mon Nov 06 2023 13:05:21 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5509
+Mon Nov 06 2023 13:05:21 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5647
+Mon Nov 06 2023 13:05:22 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6386
+Mon Nov 06 2023 13:05:25 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5633
+Mon Nov 06 2023 13:05:26 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6057
+Mon Nov 06 2023 13:05:26 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6272
+Mon Nov 06 2023 13:05:27 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6913
+Mon Nov 06 2023 13:05:27 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7100
+Mon Nov 06 2023 13:05:30 GMT+0000 (Western European Standard Time)aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5319
+Mon Nov 06 2023 13:05:30 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5389
+Mon Nov 06 2023 13:05:31 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6238
+Mon Nov 06 2023 13:05:31 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6408
+Mon Nov 06 2023 13:05:31 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6706
+Mon Nov 06 2023 13:05:35 GMT+0000 (Western European Standard Time)aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5634
+Mon Nov 06 2023 13:05:36 GMT+0000 (Western European Standard Time)aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5950
+Mon Nov 06 2023 13:05:37 GMT+0000 (Western European Standard Time)aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7289
+Mon Nov 06 2023 13:05:37 GMT+0000 (Western European Standard Time)aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7393
+2023-11-06T13:05:50.004Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4449
+2023-11-06T13:05:51.781Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 6226
+2023-11-06T13:05:52.193Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6638
+2023-11-06T13:05:52.442Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6887
+2023-11-06T13:05:52.913Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7358
+2023-11-06T13:05:56.503Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6016
+2023-11-06T13:05:56.964Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6479
+2023-11-06T13:05:57.212Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6727
+2023-11-06T13:05:57.321Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6836
+2023-11-06T13:05:59.979Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 9494
+2023-11-06T13:06:00.360Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 4674
+2023-11-06T13:06:00.611Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4925
+2023-11-06T13:06:01.057Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5371
+2023-11-06T13:06:01.414Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5728
+2023-11-06T13:06:01.836Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6150
+2023-11-06T13:06:06.877Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5490
+2023-11-06T13:06:07.349Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5962
+2023-11-06T13:06:07.380Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5993
+2023-11-06T13:06:07.938Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6551
+2023-11-06T13:06:08.300Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6912
+2023-11-06T13:06:10.113Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 4999
+2023-11-06T13:06:10.344Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5230
+2023-11-06T13:06:10.550Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5436
+2023-11-06T13:06:11.237Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6123
+2023-11-06T13:06:11.371Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6257
+2023-11-06T13:06:15.605Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5340
+2023-11-06T13:06:15.767Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5502
+2023-11-06T13:06:15.933Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5667
+2023-11-06T13:06:16.031Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5766
+2023-11-06T13:06:16.504Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6239
+2023-11-06T13:06:21.111Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5739
+2023-11-06T13:06:21.179Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5807
+2023-11-06T13:06:21.462Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6090
+2023-11-06T13:06:22.184Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6812
+2023-11-06T13:06:22.673Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7302
+2023-11-06T13:06:25.321Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5245
+2023-11-06T13:06:25.771Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5695
+2023-11-06T13:06:26.209Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6133
+2023-11-06T13:06:27.136Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7060
+2023-11-06T13:06:27.373Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7297
+2023-11-06T13:06:30.099Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 4998
+2023-11-06T13:06:30.299Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5198
+2023-11-06T13:06:30.497Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5395
+2023-11-06T13:06:31.370Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6269
+2023-11-06T13:06:33.109Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 8007
+2023-11-06T13:06:36.014Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5729
+2023-11-06T13:06:36.172Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5887
+2023-11-06T13:06:36.388Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6103
+2023-11-06T13:06:37.274Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6989
+2023-11-06T13:06:37.557Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 7271
+2023-11-06T13:06:40.105Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5017
+2023-11-06T13:06:40.683Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5594
+2023-11-06T13:06:41.027Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5939
+2023-11-06T13:06:41.507Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6419
+2023-11-06T13:06:42.527Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 7439
+2023-11-06T13:06:45.490Zaggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5216
+2023-11-06T13:06:45.837Zaggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5565
+2023-11-06T13:06:46.027Zaggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5756
+2023-11-06T13:06:46.034Zaggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5762
+2023-11-06T13:06:47.338Zaggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 7067
+2023-11-06T13:07:00.399Z aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 5127
+2023-11-06T13:07:00.509Z aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5239
+2023-11-06T13:07:00.995Z aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5724
+2023-11-06T13:07:01.126Z aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5856
+2023-11-06T13:07:01.380Z aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6111
+2023-11-06T13:07:06.424Z aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 6302
+2023-11-06T13:07:06.450Z aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 6328
+2023-11-06T13:07:06.494Z aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 6372
+2023-11-06T13:07:07.408Z aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7286
+2023-11-06T13:07:09.059Z aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 8934
+2023-11-06T13:07:10.317Z aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5202
+2023-11-06T13:07:10.426Z aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5311
+2023-11-06T13:07:10.435Z aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5320
+2023-11-06T13:07:10.965Z aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5850
+2023-11-06T13:07:12.383Z aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 7268
+2023-11-06T13:07:15.116Z aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5034
+2023-11-06T13:07:15.315Z aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5234
+2023-11-06T13:07:15.328Z aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5247
+2023-11-06T13:07:15.359Z aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 5277
+2023-11-06T13:07:16.712Z aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 6631
+2023-11-06T13:07:20.361Z aggregator: abduh-diaaa-aaaal-qbg2a-cai seconds: 5258
+2023-11-06T13:07:20.448Z aggregator: g2erz-sqaaa-aaaaj-qa2oa-cai seconds: 5346
+2023-11-06T13:07:20.696Z aggregator: ohfj4-oyaaa-aaaak-qay4a-cai seconds: 5562
+2023-11-06T13:07:22.268Z aggregator: tg4u2-2yaaa-aaaal-abi5a-cai seconds: 7166
+2023-11-06T13:07:23.554Z aggregator: ndjea-myaaa-aaaam-aaxqq-cai seconds: 8452

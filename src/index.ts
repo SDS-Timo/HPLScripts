@@ -1,5 +1,5 @@
 import { HPLClient, TransferAccountReference } from "@research-ag/hpl-client";
-import { seedToIdentity } from "../utils";
+import { log, seedToIdentity } from "../utils";
 import { Wallet } from "./models/models";
 import { runOrPickupSimpleTransfer } from "./scripts/transfer";
 import Prometheus from "prom-client";
@@ -186,7 +186,6 @@ async function StartProcess() {
       resolve(true);
     }),
   ];
-
   Promise.all(promises);
 }
 
@@ -204,14 +203,14 @@ async function StartProcessPerAggregator() {
       requested(aggPrincipal);
 
       const start = Date.now();
-      await MakeTransfer(client, aggregator.canisterPrincipal);
+      await MakeTransfer(client, aggregator.canisterPrincipal); 
       const seconds = Date.now() - start;
-
+      
       try {
-        console.log("seconds", seconds);
+        log(["aggregator:",aggPrincipal, "seconds:", seconds]);
         transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
       } catch (error) {
-        console.log("error", error);
+        log(["error", error]);
         reject(error);
       }
 
