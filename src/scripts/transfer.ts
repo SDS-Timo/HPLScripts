@@ -14,7 +14,7 @@ import { log } from "utils";
 export const TX_HISTORY_KEY = "tx_history_";
 
 export const runOrPickupSimpleTransfer = async (
-  localId: number,
+  localId: string,
   txArgs: TxArgs,
   client: HPLClient,
   logCallback: (log: string) => void,
@@ -23,10 +23,11 @@ export const runOrPickupSimpleTransfer = async (
   submitRequestId: string | null = null,
   txId: [bigint, bigint] | null = null,
 ) => {
+  
   let aggregator: AggregatorDelegate | null = null;
     try {
       // pick aggregator
-     
+      await log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Started"]);
       if (!aggregatorPrincipal) {
         onTxStatusChanged(
           localId,
@@ -42,13 +43,14 @@ export const runOrPickupSimpleTransfer = async (
       
 
     } catch (error:any) {
-      log(["pick aggregator error: ", aggregatorPrincipal?.toString() || "all", error.toString()]);
+      await log(["pick aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
     }
 
     if (!aggregator) {
       throw new Error("No available aggregator");
     }
 
+    await log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Submit request"]);
     try {
       // submit to aggregator
       if (!txId) {
@@ -76,11 +78,13 @@ export const runOrPickupSimpleTransfer = async (
             ...txArgs
           );
           submitRequestId = new Uint8Array(requestId).join(",");
+          txId = await commit();
           onTxStatusChanged(
             localId,
             {
               txArgs,
               lastSeenStatus: "submitting",
+              txId: txId!,
               aggregatorPrincipal: aggregator.canisterPrincipal.toText(),
               submitRequestId,
             },
@@ -88,12 +92,12 @@ export const runOrPickupSimpleTransfer = async (
             { aggregatorPrincipal: aggregator.canisterPrincipal.toText() },
             true
           );
-          txId = await commit();
         }
       }
     } catch (error:any) {
-      log(["submit to aggregator error: ", aggregatorPrincipal?.toString() || "all", error.toString()]);
+      await log(["submit to aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
     }
+    await log(["localId:",localId,"TxId:",txId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Start poll tx"]);
     try {
     // poll tx
     await lastValueFrom(
@@ -112,23 +116,25 @@ export const runOrPickupSimpleTransfer = async (
             x.statusPayload
           );
         }),
-        catchError((e: any) => {
+        catchError(async (e: any) => {
           loggers.errors(aggregatorPrincipal?.toString() || "all");
-          log(["catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
-          handleError(localId, e, logCallback);
+          await log(["localId:",localId,"TxId:",txId,"catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
+          await handleError(localId,  e, logCallback,txId!,);
           return of();
         })
       )
     );
   } catch (e: any) {
     loggers.errors(aggregatorPrincipal?.toString() || "all");
-    log(["try catch error: ", aggregatorPrincipal?.toString() || "all"]);
-    handleError(localId, e, logCallback);
+    log(["localId:",localId,"TxId:",txId,"try catch error: ", aggregatorPrincipal?.toString() || "all"]);
+    await handleError(localId,  e, logCallback,txId!,);
   }
+
+  return txId
 };
 
-function onTxStatusChanged (
-  localId: number,
+async function onTxStatusChanged (
+  localId: string,
   entry: TxHistoryEntry,
   logCallback: (log: string) => void,
   latestStatusPayload: any = null,
@@ -143,20 +149,22 @@ function onTxStatusChanged (
     consoleEntry += `; submit request id: ${entry.submitRequestId}`;
   }
 
-  log(["aggregator", entry.aggregatorPrincipal, "consoleEntry", consoleEntry]);
+  await log(["localId:",localId,"aggregator", entry.aggregatorPrincipal, "consoleEntry", consoleEntry]);
 
   logCallback(consoleEntry);
 };
 
 
-function handleError (
-  localId: number,
+async function handleError (
+  localId: string,
   e: any,
-  logCallback: (log: string) => void
+  logCallback: (log: string) => void,
+  txId?: [bigint, bigint] | undefined,
 ) {
   const errorMessage = e.errorKey !== undefined ? `Error: ${e.toString()}` : "Error: " + e.message;
-  console.log("errorMessage",errorMessage);
-  log(["errorMessage", errorMessage]);
+  console.log("errorMessage",JSON.stringify(errorMessage));
+
+  await log(["localId:",localId, "TxId:",txId, "errorMessage", JSON.stringify(errorMessage)]);
 
   logCallback("errorMessage");
 

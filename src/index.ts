@@ -1,5 +1,5 @@
 import { HPLClient, TransferAccountReference } from "@research-ag/hpl-client";
-import { log, seedToIdentity } from "../utils";
+import { log, randomId, seedToIdentity } from "../utils";
 import { Wallet } from "./models/models";
 import { runOrPickupSimpleTransfer } from "./scripts/transfer";
 import Prometheus from "prom-client";
@@ -203,14 +203,14 @@ async function StartProcessPerAggregator() {
       requested(aggPrincipal);
 
       const start = Date.now();
-      await MakeTransfer(client, aggregator.canisterPrincipal); 
+      const data = await MakeTransfer(client, aggregator.canisterPrincipal); 
       const seconds = Date.now() - start;
       
       try {
-        log(["aggregator:",aggPrincipal, "seconds:", seconds]);
+        await log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:",aggPrincipal, "seconds:", seconds]);
         transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
       } catch (error) {
-        log(["error", error]);
+        await log(["error", error]);
         reject(error);
       }
 
@@ -420,11 +420,11 @@ function requested(aggregator: string): void {
 }
 
 // Process transactions
-function MakeTransfer(
+async function MakeTransfer(
   client: HPLClient,
   aggregator?: string | Principal | null
 ) {
-  const localId = Date.now();
+  const localId = Date.now() + randomId(10);
   const from: TransferAccountReference = {
     type: "sub",
     id: BigInt(1),
@@ -433,7 +433,7 @@ function MakeTransfer(
     type: "sub",
     id: BigInt(2),
   };
-  return runOrPickupSimpleTransfer(
+  const TxId = await runOrPickupSimpleTransfer(
     localId,
     [from, to, BigInt(1), "max"],
     client,
@@ -441,6 +441,7 @@ function MakeTransfer(
     { errors },
     aggregator
   );
+  return {TxId, localId};
 }
 
 // Initialize client of HPLClient

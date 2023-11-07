@@ -1,5 +1,6 @@
 import { Ed25519KeyIdentity } from '@dfinity/identity';
 import { Wallet } from './src/models/models';
+import { appendFile } from "node:fs/promises";
 
 export const wrapCall = <Args extends Array<unknown>>(f: (...args: Args) => Promise<void>): (...args: Args) => Promise<void> => {
     return async (...args) => {
@@ -21,17 +22,14 @@ export function seedToIdentity(seed: string): Wallet {
 };
 
 // Append request's logs to the log's file
-export async function  log(requestLog: any[]) {
+export async function log(requestLog: any[]) {
   const LOG_PATH = `logs/${getDate()}.log`;
   try {
-      // console.log((new Date()).toISOString() +" "+requestLog.join(' '));
-      let logs = await Bun.file(LOG_PATH).text();
       // Write (file's content + request's log) 
-      logs = logs + '\n'
-      await Bun.write(LOG_PATH, logs.concat((new Date()).toISOString() +" "+ requestLog.join(' ')));
+      await appendFile(LOG_PATH, `\n ${(new Date()).toISOString() +" "+ requestLog.join(' ')}`);
   } catch (e) {
       // If log's file doesn't exist, write new content
-      await Bun.write(LOG_PATH, ''.concat((new Date()).toISOString() +" "+ requestLog.join(' ')));
+      console.log("Log file doesn't exist",e);
   }
 }
 
@@ -43,3 +41,7 @@ function getDate(){
   let format1 = month + "-" + day + "-" + year;
   return format1;
 }
+
+export function randomId(length = 6) {
+  return Math.random().toString(36).substring(2, length+2);
+};
