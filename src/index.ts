@@ -172,11 +172,12 @@ async function StartProcess() {
       requested("all");
 
       const start = Date.now();
-      await MakeTransfer(client);
+      const data = await MakeTransfer(client);
       const seconds = Date.now() - start;
-
       try {
-        transfers_time.labels({ aggregator: "all" }).observe(seconds);
+        log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:","all", "seconds:", seconds]);
+        if(!data.err)
+          transfers_time.labels({ aggregator: "all" }).observe(seconds);
       } catch (error) {
         console.log("error", error);
         reject(error);
@@ -207,10 +208,11 @@ async function StartProcessPerAggregator() {
       const seconds = Date.now() - start;
       
       try {
-        await log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:",aggPrincipal, "seconds:", seconds]);
-        transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
+        log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:",aggPrincipal, "seconds:", seconds]);
+        if(!data.err)
+          transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
       } catch (error) {
-        await log(["error", error]);
+        log(["error", error]);
         reject(error);
       }
 
@@ -234,20 +236,21 @@ async function StartProcessFunction() {
       new Promise(async (resolve, reject) => {
         //requested counter
         requested_counter.labels({ function: "updateVirtualAccount" }).inc();
-
+        const localId = getId();
         // start timer
         const start = Date.now();
-
+        log(["localId:",localId,"Start"]);
         // update virtual account
-        await updateVirtualAccount(wallet!)
+        await updateVirtualAccount(localId,wallet!)
           .then((a) => console.log("result", a))
-          .catch((error) => {
+          .catch(async (error) => {
             console.log("error", error);
+            log(["localId:",localId, "seconds:", seconds, "error:", JSON.stringify(error)]);
             error_counter.labels({ function: "updateVirtualAccount" }).inc();
           });
         // end timer
         const seconds = Date.now() - start;
-
+        log(["localId:",localId, "seconds:", seconds, "function:", "updateVirtualAccount","End"]);
         // register time
         try {
           transfers_time
@@ -267,22 +270,6 @@ async function StartProcessFunction() {
   // }
 }
 
-function updateVirtualAccount(wallet?: Identity) {
-  const myAgent = new HttpAgent({
-    identity: wallet,
-    host: AGENT_HOST,
-  });
-  const ingressActor = Actor.createActor<LedgerActor>(LedgerIDLFactory, {
-    agent: myAgent,
-    canisterId: ledger_principal,
-  });
-  return ingressActor.updateVirtualAccount(BigInt(0), {
-    backingAccount: [BigInt(0)],
-    state: [{ ft_set: BigInt(1000) }],
-    expiration: [BigInt(1000)],
-  });
-}
-
 //Specific function
 async function StartProcessPing() {
   const wallet = CreateSeedPrincipals();
@@ -295,12 +282,12 @@ async function StartProcessPing() {
         new Promise(async (resolve, reject) => {
         //requested counter
         requested_counter.labels({ canister: ledger_principal }).inc();
-
+        const localId = getId();
         // start timer
         const start = Date.now();
-
+        log(["localId:",localId,"aggregator:","all","Start"]);
         // update virtual account
-        const value = await Ping(wallet!)
+        const value = await Ping(localId,wallet!)
           .then((a) => a)
           .catch((error) => {
             console.log("error", error);
@@ -314,6 +301,10 @@ async function StartProcessPing() {
           let calltime = end - Number(newValue)
           if (responsetime < 0) responsetime = 0;
           if (calltime < 0) calltime = 0;
+
+          log(["localId:",localId,"aggregator:","all","seconds:",seconds]);
+          log(["localId:",localId,"aggregator:","all","responsetime:",responsetime]);
+          log(["localId:",localId,"aggregator:","all","calltime:",calltime]);
         // register time
         try {
           transfers_time
@@ -343,9 +334,10 @@ async function StartProcessPing() {
 
         // start timer
         const start = Date.now();
-
+        const localId = getId();
+        log(["localId:",localId,"aggregator:",agg,"Start"]);
         // update virtual account
-       const value = await PingAgg(agg,wallet!)
+       const value = await PingAgg(localId,agg,wallet!)
           .then((a) => a)
           .catch((error) => {
             console.log("error", error);
@@ -359,6 +351,9 @@ async function StartProcessPing() {
         let calltime = end - Number(newValue)
         if (responsetime < 0) responsetime = 0;
         if (calltime < 0) calltime = 0;
+        log(["localId:",localId,"aggregator:",agg,"seconds:",seconds]);
+        log(["localId:",localId,"aggregator:",agg,"responsetime:",responsetime]);
+        log(["localId:",localId,"aggregator:",agg,"calltime:",calltime]);
         // register time
         try {
           transfers_time
@@ -385,27 +380,52 @@ async function StartProcessPing() {
   // }
 }
 
-function Ping(wallet?: Identity) {
+async function updateVirtualAccount(localId: string, wallet?: Identity, ) {
+  log(["localId:",localId, "Start Agent"]);
   const myAgent = new HttpAgent({
     identity: wallet,
     host: AGENT_HOST,
   });
+  log(["localId:",localId,"Create Actor"]);
+  const ingressActor = Actor.createActor<LedgerActor>(LedgerIDLFactory, {
+    agent: myAgent,
+    canisterId: ledger_principal,
+  });
+  log(["localId:",localId, "Execute Function"]);
+  return ingressActor.updateVirtualAccount(BigInt(0), {
+    backingAccount: [BigInt(0)],
+    state: [{ ft_set: BigInt(1000) }],
+    expiration: [BigInt(1000)],
+  });
+}
+
+async function Ping(localId: string, wallet?: Identity) {
+  log(["localId:",localId,"aggregator:","all", "Start Agent"]);
+  const myAgent = new HttpAgent({
+    identity: wallet,
+    host: AGENT_HOST,
+  });
+  log(["localId:",localId,"aggregator:","all","Create Actor"]);
   const ledgerActor = Actor.createActor<LedgerActor>(LedgerIDLFactory, {
     agent: myAgent,
     canisterId: "rqx66-eyaaa-aaaap-aaona-cai",
   });
+  log(["localId:",localId,"aggregator:","all", "Execute Function"]);
   return ledgerActor.ping();
 }
 
-function PingAgg(aggregator: string, wallet?: Identity) {
+async function PingAgg(localId:string, aggregator: string, wallet?: Identity) {
+  log(["localId:",localId,"aggregator:",aggregator, "Start Agent"]);
   const myAgent = new HttpAgent({
     identity: wallet,
     host: AGENT_HOST,
   });
+  log(["localId:",localId,"aggregator:",aggregator,"Create Actor"]);
   const aggActor = Actor.createActor<AggActor>(AggIDLFactory, {
     agent: myAgent,
     canisterId: aggregator,
   });
+  log(["localId:",localId,"aggregator:",aggregator, "Execute Function"]);
   return aggActor.ping();
 }
 
@@ -424,7 +444,7 @@ async function MakeTransfer(
   client: HPLClient,
   aggregator?: string | Principal | null
 ) {
-  const localId = Date.now() + randomId(10);
+  const localId = getId();
   const from: TransferAccountReference = {
     type: "sub",
     id: BigInt(1),
@@ -433,7 +453,7 @@ async function MakeTransfer(
     type: "sub",
     id: BigInt(2),
   };
-  const TxId = await runOrPickupSimpleTransfer(
+  const data = await runOrPickupSimpleTransfer(
     localId,
     [from, to, BigInt(1), "max"],
     client,
@@ -441,7 +461,7 @@ async function MakeTransfer(
     { errors },
     aggregator
   );
-  return {TxId, localId};
+  return {TxId:data.txId, localId, err: data.err};
 }
 
 // Initialize client of HPLClient
@@ -454,4 +474,8 @@ function startClients(wallet: Wallet): HPLClient {
   client1.setIdentity(wallet);
 
   return client1;
+}
+
+function getId(){
+  return Date.now() + randomId(10);
 }

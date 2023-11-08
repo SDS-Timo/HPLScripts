@@ -22,11 +22,11 @@ export function seedToIdentity(seed: string): Wallet {
 };
 
 // Append request's logs to the log's file
-export async function log(requestLog: any[]) {
+export function log(requestLog: any[]) {
   const LOG_PATH = `logs/${getDate()}.log`;
   try {
       // Write (file's content + request's log) 
-      await appendFile(LOG_PATH, `\n ${(new Date()).toISOString() +" "+ requestLog.join(' ')}`);
+      appendFile(LOG_PATH, `\n ${(new Date()).toISOString() +" "+ requestLog.join(' ')}`);
   } catch (e) {
       // If log's file doesn't exist, write new content
       console.log("Log file doesn't exist",e);

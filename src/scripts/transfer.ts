@@ -23,11 +23,11 @@ export const runOrPickupSimpleTransfer = async (
   submitRequestId: string | null = null,
   txId: [bigint, bigint] | null = null,
 ) => {
-  
+  let err = false;
   let aggregator: AggregatorDelegate | null = null;
     try {
       // pick aggregator
-      await log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Started"]);
+      log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Started"]);
       if (!aggregatorPrincipal) {
         onTxStatusChanged(
           localId,
@@ -43,14 +43,14 @@ export const runOrPickupSimpleTransfer = async (
       
 
     } catch (error:any) {
-      await log(["pick aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      log(["pick aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
     }
 
     if (!aggregator) {
       throw new Error("No available aggregator");
     }
 
-    await log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Submit request"]);
+    log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Submit request"]);
     try {
       // submit to aggregator
       if (!txId) {
@@ -78,6 +78,18 @@ export const runOrPickupSimpleTransfer = async (
             ...txArgs
           );
           submitRequestId = new Uint8Array(requestId).join(",");
+          onTxStatusChanged(
+            localId,
+            {
+              txArgs,
+              lastSeenStatus: "submitting",
+              aggregatorPrincipal: aggregator.canisterPrincipal.toText(),
+              submitRequestId,
+            },
+            logCallback,
+            { aggregatorPrincipal: aggregator.canisterPrincipal.toText() },
+            true
+          );
           txId = await commit();
           onTxStatusChanged(
             localId,
@@ -95,9 +107,9 @@ export const runOrPickupSimpleTransfer = async (
         }
       }
     } catch (error:any) {
-      await log(["submit to aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      log(["submit to aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
     }
-    await log(["localId:",localId,"TxId:",txId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Start poll tx"]);
+    log(["localId:",localId,"TxId:",txId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Start poll tx"]);
     try {
     // poll tx
     await lastValueFrom(
@@ -117,20 +129,22 @@ export const runOrPickupSimpleTransfer = async (
           );
         }),
         catchError(async (e: any) => {
+          err = true;
           loggers.errors(aggregatorPrincipal?.toString() || "all");
-          await log(["localId:",localId,"TxId:",txId,"catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
+          log(["localId:",localId,"TxId:",txId,"catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
           await handleError(localId,  e, logCallback,txId!,);
           return of();
         })
       )
     );
   } catch (e: any) {
+    err = true;
     loggers.errors(aggregatorPrincipal?.toString() || "all");
     log(["localId:",localId,"TxId:",txId,"try catch error: ", aggregatorPrincipal?.toString() || "all"]);
     await handleError(localId,  e, logCallback,txId!,);
   }
 
-  return txId
+  return {txId, err}
 };
 
 async function onTxStatusChanged (
@@ -149,7 +163,7 @@ async function onTxStatusChanged (
     consoleEntry += `; submit request id: ${entry.submitRequestId}`;
   }
 
-  await log(["localId:",localId,"aggregator", entry.aggregatorPrincipal, "consoleEntry", consoleEntry]);
+  log(["localId:",localId,"aggregator", entry.aggregatorPrincipal, "consoleEntry", consoleEntry]);
 
   logCallback(consoleEntry);
 };
@@ -164,7 +178,7 @@ async function handleError (
   const errorMessage = e.errorKey !== undefined ? `Error: ${e.toString()}` : "Error: " + e.message;
   console.log("errorMessage",JSON.stringify(errorMessage));
 
-  await log(["localId:",localId, "TxId:",txId, "errorMessage", JSON.stringify(errorMessage)]);
+  log(["localId:",localId, "TxId:",txId, "errorMessage", JSON.stringify(errorMessage)]);
 
   logCallback("errorMessage");
 
