@@ -43,11 +43,15 @@ export const runOrPickupSimpleTransfer = async (
       
 
     } catch (error:any) {
-      log(["pick aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      log(["localId:",localId, "pick aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      err = true;
+      return {txId, err}
     }
 
     if (!aggregator) {
-      throw new Error("No available aggregator");
+      log(["localId:",localId,"TxId:",txId, "No available aggregator"]);
+      err = true;
+      return {txId, err}
     }
 
     log(["localId:",localId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Submit request"]);
@@ -107,42 +111,44 @@ export const runOrPickupSimpleTransfer = async (
         }
       }
     } catch (error:any) {
-      log(["submit to aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      log(["localId:",localId,"TxId:",txId,  "submit/transfer to aggregator error: ", aggregatorPrincipal?.toString() || "all", JSON.stringify(error)]);
+      err = true;
+      return {txId, err}
     }
     log(["localId:",localId,"TxId:",txId, "aggregator: ", aggregatorPrincipal?.toString() || "all", "Start poll tx"]);
     try {
     // poll tx
-    await lastValueFrom(
-      client.pollTx(aggregator, txId!).pipe(
-        map((x) => {
-          onTxStatusChanged(
-            localId,
-            {
-              txArgs,
-              aggregatorPrincipal: aggregator!.canisterPrincipal.toText(),
-              txId: txId!,
-              submitRequestId: submitRequestId!,
-              lastSeenStatus: x.status,
-            },
-            logCallback,
-            x.statusPayload
-          );
-        }),
-        catchError(async (e: any) => {
-          err = true;
-          loggers.errors(aggregatorPrincipal?.toString() || "all");
-          log(["localId:",localId,"TxId:",txId,"catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
-          await handleError(localId,  e, logCallback,txId!,);
-          return of();
-        })
-      )
-    );
-  } catch (e: any) {
-    err = true;
-    loggers.errors(aggregatorPrincipal?.toString() || "all");
-    log(["localId:",localId,"TxId:",txId,"try catch error: ", aggregatorPrincipal?.toString() || "all"]);
-    await handleError(localId,  e, logCallback,txId!,);
-  }
+      await lastValueFrom(
+        client.pollTx(aggregator, txId!).pipe(
+          map((x) => {
+            onTxStatusChanged(
+              localId,
+              {
+                txArgs,
+                aggregatorPrincipal: aggregator!.canisterPrincipal.toText(),
+                txId: txId!,
+                submitRequestId: submitRequestId!,
+                lastSeenStatus: x.status,
+              },
+              logCallback,
+              x.statusPayload
+            );
+          }),
+          catchError(async (e: any) => {
+            err = true;
+            loggers.errors(aggregatorPrincipal?.toString() || "all");
+            log(["localId:",localId,"TxId:",txId,"catch poll error: ", aggregatorPrincipal?.toString() || "all"]);
+            await handleError(localId,  e, logCallback,txId!,);
+            return of();
+          })
+        )
+      );
+    } catch (e: any) {
+      err = true;
+      loggers.errors(aggregatorPrincipal?.toString() || "all");
+      log(["localId:",localId,"TxId:",txId,"try catch error: ", aggregatorPrincipal?.toString() || "all"]);
+      await handleError(localId,  e, logCallback,txId!,);
+    }
 
   return {txId, err}
 };
