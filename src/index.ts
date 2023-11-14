@@ -10,7 +10,9 @@ import { _SERVICE as LedgerActor } from "@research-ag/hpl-client/dist/candid/led
 import { idlFactory as LedgerIDLFactory } from "@research-ag/hpl-client/dist/candid/ledger.idl";
 import { _SERVICE as AggActor } from "@research-ag/hpl-client/dist/candid/aggregator";
 import { idlFactory as AggIDLFactory } from "@research-ag/hpl-client/dist/candid/aggregator.idl";
-import { Actor, HttpAgent, Identity } from "@dfinity/agent";
+import { Actor, HttpAgent, Identity, RequestId, randomNumber } from "@dfinity/agent";
+import { pollForResponse } from "@dfinity/agent/lib/cjs/polling";
+import { backoff, chain, conditionalDelay, once, timeout } from "@dfinity/agent/lib/cjs/polling/strategy";
 
 const port = process.env.PORT || 3000;
 const ledger_principal = process.env.LEDGER_PRINCIPAL || "";
@@ -58,7 +60,7 @@ function getData() {
     data: {
       histogram: {
         name: "transfer_time",
-        buckets: Prometheus.linearBuckets(0, 1000, 50)
+        buckets: Prometheus.linearBuckets(0, 1000, 25)
       },
       error_counter: "transfer_errors",
       requested_counter: "transfer_requests",
@@ -409,6 +411,9 @@ async function Ping(localId: string, wallet?: Identity) {
   const ledgerActor = Actor.createActor<LedgerActor>(LedgerIDLFactory, {
     agent: myAgent,
     canisterId: "rqx66-eyaaa-aaaap-aaona-cai",
+    pollingStrategyFactory: () => {
+      return chain(conditionalDelay(once(), 250), backoff(1000, 1.2), timeout(5 * 60 * 1000))
+    }
   });
   log(["localId:",localId,"aggregator:","all", "Execute Function"]);
   return ledgerActor.ping();
@@ -424,6 +429,9 @@ async function PingAgg(localId:string, aggregator: string, wallet?: Identity) {
   const aggActor = Actor.createActor<AggActor>(AggIDLFactory, {
     agent: myAgent,
     canisterId: aggregator,
+    pollingStrategyFactory: () => {
+     return chain(conditionalDelay(once(), 250), backoff(1000, 1.2), timeout(5 * 60 * 1000))
+    }
   });
   log(["localId:",localId,"aggregator:",aggregator, "Execute Function"]);
   return aggActor.ping();

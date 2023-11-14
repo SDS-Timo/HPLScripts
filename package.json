@@ -16,10 +16,10 @@
     "start:dev": "bun run src/index.ts"
   },
   "dependencies": {
-    "@dfinity/agent": "^0.18.1",
-    "@dfinity/candid": "^0.18.1",
-    "@dfinity/identity": "^0.18.1",
-    "@dfinity/principal": "^0.18.1",
+    "@dfinity/agent": "0.19.3",
+    "@dfinity/candid": "0.19.3",
+    "@dfinity/principal": "0.19.3",
+    "@dfinity/identity": "0.19.3",
     "@elysiajs/cron": "^0.7.0",
     "@research-ag/hpl-client": "./packages/hpl-io/client",
     "elysia": "^0.7.18",
