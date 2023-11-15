@@ -19,6 +19,7 @@ const ledger_principal = process.env.LEDGER_PRINCIPAL || "";
 const interval_time = process.env.INTERVAL_TIME || "*/10 * * * * *";
 const script_mode = process.env.SCRIPT_MODE || "ALL";
 const AGENT_HOST = process.env.AGENT_HOST || "https://icp0.io";
+const RESET_INTERVAL = (process.env.RESET_INTERVAL || 61000 ) as number;
 
 /// ============== PROMETHEUS ==============
 const register = new Prometheus.Registry();
@@ -107,6 +108,20 @@ const requested_counter = new Prometheus.Counter({
 });
 register.registerMetric(requested_counter);
 
+const higher_gauge = new Prometheus.Gauge({
+  name: "higher_gauge",
+  help: "Shows highest value",
+  labelNames: getData().data.labels,
+});
+register.registerMetric(higher_gauge);
+
+const lowest_gauge = new Prometheus.Gauge({
+  name: "lowest_gauge",
+  help: "Shows Lowest value",
+  labelNames: getData().data.labels,
+});
+register.registerMetric(lowest_gauge);
+
 register.setDefaultLabels({
   app: "hpl-script",
 });
@@ -157,6 +172,24 @@ async function controller(request: Request): Promise<Response> {
   else return new Response("Not found", { status: 404 });
 }
 
+function setWaterMark(seconds: number,labels: [string, string]) {
+  if(!global.date || !global.higher_gauge || !global.lower_gauge || (Date.now() > (global.date + RESET_INTERVAL))){
+    global.date = Date.now();
+    global.higher_gauge = new Map();
+    global.lower_gauge = new Map();
+  }
+  const reslh = global.higher_gauge.get(labels[1]);
+  if(!reslh || Number(reslh) < seconds){
+    global.higher_gauge.set(labels[1],seconds);
+    higher_gauge.labels({[labels[0]]:labels[1]}).set(seconds);
+  }
+  const resl = global.lower_gauge.get(labels[1]);
+  if(!resl || Number(resl) > seconds){
+    global.lower_gauge.set(labels[1],seconds);
+    lowest_gauge.labels({[labels[0]]:labels[1]}).set(seconds);
+  }
+}
+
 // =============== Process Funtions ==============
 // CreateSeeds
 function CreateSeedPrincipals(): Wallet {
@@ -178,8 +211,11 @@ async function StartProcess() {
       const seconds = Date.now() - start;
       try {
         log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:","all", "seconds:", seconds]);
-        if(!data.err)
+        if(!data.err){
           transfers_time.labels({ aggregator: "all" }).observe(seconds);
+          setWaterMark(seconds,["aggregator", "all"]);
+        }
+          
       } catch (error) {
         console.log("error", error);
         reject(error);
@@ -211,8 +247,11 @@ async function StartProcessPerAggregator() {
       
       try {
         log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:",aggPrincipal, "seconds:", seconds]);
-        if(!data.err)
+        if(!data.err){
           transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
+          setWaterMark(seconds,["aggregator", aggPrincipal]);
+        }
+          
       } catch (error) {
         log(["error", error]);
         reject(error);
@@ -258,6 +297,7 @@ async function StartProcessFunction() {
           transfers_time
             .labels({ function: "updateVirtualAccount" })
             .observe(seconds);
+            setWaterMark(seconds,["function", "updateVirtualAccount"]);
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -318,6 +358,7 @@ async function StartProcessPing() {
           time_call
             .labels({ canister: ledger_principal })
             .observe(calltime);
+          setWaterMark(seconds,["canister", ledger_principal]);
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -367,6 +408,7 @@ async function StartProcessPing() {
           time_call
             .labels({ canister: agg })
             .observe(calltime);
+          setWaterMark(seconds,["canister", agg]);
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -401,6 +443,8 @@ async function updateVirtualAccount(localId: string, wallet?: Identity, ) {
   });
 }
 
+function pollingStrategy() {return chain(conditionalDelay(once(), 250), timeout(5 * 60 * 1000))}
+
 async function Ping(localId: string, wallet?: Identity) {
   log(["localId:",localId,"aggregator:","all", "Start Agent"]);
   const myAgent = new HttpAgent({
@@ -412,7 +456,7 @@ async function Ping(localId: string, wallet?: Identity) {
     agent: myAgent,
     canisterId: "rqx66-eyaaa-aaaap-aaona-cai",
     pollingStrategyFactory: () => {
-      return chain(conditionalDelay(once(), 250), backoff(1000, 1.2), timeout(5 * 60 * 1000))
+      return pollingStrategy()
     }
   });
   log(["localId:",localId,"aggregator:","all", "Execute Function"]);
@@ -430,7 +474,7 @@ async function PingAgg(localId:string, aggregator: string, wallet?: Identity) {
     agent: myAgent,
     canisterId: aggregator,
     pollingStrategyFactory: () => {
-     return chain(conditionalDelay(once(), 250), backoff(1000, 1.2), timeout(5 * 60 * 1000))
+      return pollingStrategy()
     }
   });
   log(["localId:",localId,"aggregator:",aggregator, "Execute Function"]);
