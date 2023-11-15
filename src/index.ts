@@ -108,19 +108,19 @@ const requested_counter = new Prometheus.Counter({
 });
 register.registerMetric(requested_counter);
 
-const higher_gauge = new Prometheus.Gauge({
-  name: "higher_gauge",
+const higher_watermark = new Prometheus.Gauge({
+  name: "higher_watermark",
   help: "Shows highest value",
   labelNames: getData().data.labels,
 });
-register.registerMetric(higher_gauge);
+register.registerMetric(higher_watermark);
 
-const lowest_gauge = new Prometheus.Gauge({
-  name: "lowest_gauge",
+const lowest_watermark = new Prometheus.Gauge({
+  name: "lowest_watermark",
   help: "Shows Lowest value",
   labelNames: getData().data.labels,
 });
-register.registerMetric(lowest_gauge);
+register.registerMetric(lowest_watermark);
 
 register.setDefaultLabels({
   app: "hpl-script",
@@ -181,12 +181,12 @@ function setWaterMark(seconds: number,labels: [string, string]) {
   const reslh = global.higher_gauge.get(labels[1]);
   if(!reslh || Number(reslh) < seconds){
     global.higher_gauge.set(labels[1],seconds);
-    higher_gauge.labels({[labels[0]]:labels[1]}).set(seconds);
+    higher_watermark.labels({[labels[0]]:labels[1]}).set(seconds);
   }
   const resl = global.lower_gauge.get(labels[1]);
   if(!resl || Number(resl) > seconds){
     global.lower_gauge.set(labels[1],seconds);
-    lowest_gauge.labels({[labels[0]]:labels[1]}).set(seconds);
+    lowest_watermark.labels({[labels[0]]:labels[1]}).set(seconds);
   }
 }
 
