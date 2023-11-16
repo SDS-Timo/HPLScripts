@@ -43,20 +43,20 @@ function getData() {
     return {
       data:{
         histogram: {
-          name: "ping_time_tracked", 
+          name: "ping_time", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
         histogram_response: {
-          name: "ping_time_response", 
+          name: "ping_time_to_canister", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
         histogram_call: {
-          name: "ping_time_call", 
+          name: "ping_time_from_canister", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
         error_counter: "tracked_errors_time",
         requested_counter: "tracked_requests_time",
-        labels: ["canister"],
+        labels: ["canister","ping_type"],
         higher_watermark: "ping_time_higher_watermark",
         lowest_watermark: "ping_time_lowest_watermark",
       }
@@ -178,21 +178,21 @@ async function controller(request: Request): Promise<Response> {
   else return new Response("Not found", { status: 404 });
 }
 
-function setWaterMark(seconds: number,labels: [string, string]) {
+function setWaterMark(seconds: number, labels: any,label:string) {
   if(!global.date || !global.higher_gauge || !global.lower_gauge || (Date.now() > (global.date + RESET_INTERVAL))){
     global.date = Date.now();
     global.higher_gauge = new Map();
     global.lower_gauge = new Map();
   }
-  const reslh = global.higher_gauge.get(labels[1]);
+  const reslh = global.higher_gauge.get(label);
   if(!reslh || Number(reslh) < seconds){
-    global.higher_gauge.set(labels[1],seconds);
-    higher_watermark.labels({[labels[0]]:labels[1]}).set(seconds);
+    global.higher_gauge.set(label,seconds);
+    higher_watermark.labels(labels).set(seconds);
   }
-  const resl = global.lower_gauge.get(labels[1]);
+  const resl = global.lower_gauge.get(label);
   if(!resl || Number(resl) > seconds){
-    global.lower_gauge.set(labels[1],seconds);
-    lowest_watermark.labels({[labels[0]]:labels[1]}).set(seconds);
+    global.lower_gauge.set(label,seconds);
+    lowest_watermark.labels(labels).set(seconds);
   }
 }
 
@@ -219,7 +219,7 @@ async function StartProcess() {
         log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:","all", "seconds:", seconds]);
         if(!data.err){
           transfers_time.labels({ aggregator: "all" }).observe(seconds);
-          setWaterMark(seconds,["aggregator", "all"]);
+          setWaterMark(seconds,{aggregator: "all"},"all");
         }
           
       } catch (error) {
@@ -255,7 +255,7 @@ async function StartProcessPerAggregator() {
         log(["localId:",data.localId,"TxId:",data.TxId,"aggregator:",aggPrincipal, "seconds:", seconds]);
         if(!data.err){
           transfers_time.labels({ aggregator: aggPrincipal }).observe(seconds);
-          setWaterMark(seconds,["aggregator", aggPrincipal]);
+          setWaterMark(seconds,{aggregator: aggPrincipal},aggPrincipal);
         }
           
       } catch (error) {
@@ -303,7 +303,7 @@ async function StartProcessFunction() {
           transfers_time
             .labels({ function: "updateVirtualAccount" })
             .observe(seconds);
-            setWaterMark(seconds,["function", "updateVirtualAccount"]);
+            setWaterMark(seconds,{function: "updateVirtualAccount"},"updateVirtualAccount");
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -364,7 +364,9 @@ async function StartProcessPing() {
           time_call
             .labels({ canister: ledger_principal })
             .observe(calltime);
-          setWaterMark(seconds,["canister", ledger_principal]);
+          setWaterMark(seconds,{canister: ledger_principal, ping_type:"ping_time"},ledger_principal);
+          setWaterMark(calltime,{canister: ledger_principal, ping_type:"ping_time_from_canister"},ledger_principal+"_from_canister");
+          setWaterMark(responsetime,{canister: ledger_principal, ping_type:"ping_time_to_canister"},ledger_principal+"_to_canister");
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -414,7 +416,9 @@ async function StartProcessPing() {
           time_call
             .labels({ canister: agg })
             .observe(calltime);
-          setWaterMark(seconds,["canister", agg]);
+            setWaterMark(seconds,{canister: agg, ping_type:"ping_time"},agg);
+            setWaterMark(calltime,{canister: agg, ping_type:"ping_time_from_canister"},agg+"_from_canister");
+            setWaterMark(responsetime,{canister: agg, ping_type:"ping_time_to_canister"},agg+"_to_canister");
         } catch (error) {
           console.log("error", error);
           reject(error);
