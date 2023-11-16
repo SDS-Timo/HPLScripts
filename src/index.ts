@@ -35,6 +35,8 @@ function getData() {
         error_counter: "tracked_errors_function",
         requested_counter: "tracked_requests_function",
         labels: ["function"],
+        higher_watermark: "tracked_time_function_higher_watermark",
+        lowest_watermark: "tracked_time_function_lowest_watermark",
       }
     };
   if(script_mode === "PING")
@@ -55,6 +57,8 @@ function getData() {
         error_counter: "tracked_errors_time",
         requested_counter: "tracked_requests_time",
         labels: ["canister"],
+        higher_watermark: "ping_time_higher_watermark",
+        lowest_watermark: "ping_time_lowest_watermark",
       }
     };
   return {
@@ -66,6 +70,8 @@ function getData() {
       error_counter: "transfer_errors",
       requested_counter: "transfer_requests",
       labels: ["aggregator"],
+      higher_watermark: "transfer_time_higher_watermark",
+      lowest_watermark: "transfer_time_lowest_watermark",
     }
   };
 }
@@ -109,14 +115,14 @@ const requested_counter = new Prometheus.Counter({
 register.registerMetric(requested_counter);
 
 const higher_watermark = new Prometheus.Gauge({
-  name: "higher_watermark",
+  name: getData().data.higher_watermark,
   help: "Shows highest value",
   labelNames: getData().data.labels,
 });
 register.registerMetric(higher_watermark);
 
 const lowest_watermark = new Prometheus.Gauge({
-  name: "lowest_watermark",
+  name: getData().data.lowest_watermark,
   help: "Shows Lowest value",
   labelNames: getData().data.labels,
 });
@@ -327,7 +333,7 @@ async function StartProcessPing() {
         const localId = getId();
         // start timer
         const start = Date.now();
-        log(["localId:",localId,"aggregator:","all","Start"]);
+        log(["localId:",localId,"canister:",ledger_principal,"Start"]);
         // update virtual account
         const value = await Ping(localId,wallet!)
           .then((a) => a)
@@ -344,9 +350,9 @@ async function StartProcessPing() {
           if (responsetime < 0) responsetime = 0;
           if (calltime < 0) calltime = 0;
 
-          log(["localId:",localId,"aggregator:","all","seconds:",seconds]);
-          log(["localId:",localId,"aggregator:","all","responsetime:",responsetime]);
-          log(["localId:",localId,"aggregator:","all","calltime:",calltime]);
+          log(["localId:",localId,"canister:",ledger_principal,"seconds:",seconds]);
+          log(["localId:",localId,"canister:",ledger_principal,"responsetime:",responsetime]);
+          log(["localId:",localId,"canister:",ledger_principal,"calltime:",calltime]);
         // register time
         try {
           transfers_time
@@ -378,7 +384,7 @@ async function StartProcessPing() {
         // start timer
         const start = Date.now();
         const localId = getId();
-        log(["localId:",localId,"aggregator:",agg,"Start"]);
+        log(["localId:",localId,"canister:",agg,"Start"]);
         // update virtual account
        const value = await PingAgg(localId,agg,wallet!)
           .then((a) => a)
@@ -394,9 +400,9 @@ async function StartProcessPing() {
         let calltime = end - Number(newValue)
         if (responsetime < 0) responsetime = 0;
         if (calltime < 0) calltime = 0;
-        log(["localId:",localId,"aggregator:",agg,"seconds:",seconds]);
-        log(["localId:",localId,"aggregator:",agg,"responsetime:",responsetime]);
-        log(["localId:",localId,"aggregator:",agg,"calltime:",calltime]);
+        log(["localId:",localId,"canister:",agg,"seconds:",seconds]);
+        log(["localId:",localId,"canister:",agg,"responsetime:",responsetime]);
+        log(["localId:",localId,"canister:",agg,"calltime:",calltime]);
         // register time
         try {
           transfers_time
@@ -413,7 +419,8 @@ async function StartProcessPing() {
           console.log("error", error);
           reject(error);
         }
-
+        
+        
         global.transactions = [];
         resolve(true);
       })
@@ -446,30 +453,30 @@ async function updateVirtualAccount(localId: string, wallet?: Identity, ) {
 function pollingStrategy() {return chain(conditionalDelay(once(), 250), timeout(5 * 60 * 1000))}
 
 async function Ping(localId: string, wallet?: Identity) {
-  log(["localId:",localId,"aggregator:","all", "Start Agent"]);
+  log(["localId:",localId,"canister:",ledger_principal, "Start Agent"]);
   const myAgent = new HttpAgent({
     identity: wallet,
     host: AGENT_HOST,
   });
-  log(["localId:",localId,"aggregator:","all","Create Actor"]);
+  log(["localId:",localId,"canister:",ledger_principal,"Create Actor"]);
   const ledgerActor = Actor.createActor<LedgerActor>(LedgerIDLFactory, {
     agent: myAgent,
-    canisterId: "rqx66-eyaaa-aaaap-aaona-cai",
+    canisterId: ledger_principal,
     pollingStrategyFactory: () => {
       return pollingStrategy()
     }
   });
-  log(["localId:",localId,"aggregator:","all", "Execute Function"]);
+  log(["localId:",localId,"canister:",ledger_principal, "Execute Function"]);
   return ledgerActor.ping();
 }
 
 async function PingAgg(localId:string, aggregator: string, wallet?: Identity) {
-  log(["localId:",localId,"aggregator:",aggregator, "Start Agent"]);
+  log(["localId:",localId,"canister:",aggregator, "Start Agent"]);
   const myAgent = new HttpAgent({
     identity: wallet,
     host: AGENT_HOST,
   });
-  log(["localId:",localId,"aggregator:",aggregator,"Create Actor"]);
+  log(["localId:",localId,"canister:",aggregator,"Create Actor"]);
   const aggActor = Actor.createActor<AggActor>(AggIDLFactory, {
     agent: myAgent,
     canisterId: aggregator,
@@ -477,7 +484,7 @@ async function PingAgg(localId:string, aggregator: string, wallet?: Identity) {
       return pollingStrategy()
     }
   });
-  log(["localId:",localId,"aggregator:",aggregator, "Execute Function"]);
+  log(["localId:",localId,"canister:",aggregator, "Execute Function"]);
   return aggActor.ping();
 }
 
