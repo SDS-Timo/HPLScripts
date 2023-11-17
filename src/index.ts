@@ -35,7 +35,7 @@ function getData() {
         error_counter: "tracked_errors_function",
         requested_counter: "tracked_requests_function",
         labels: ["function"],
-        high_watermark: "tracked_time_function_higher_watermark",
+        high_watermark: "tracked_time_function_high_watermark",
       }
     };
   if(script_mode === "PING")
@@ -56,7 +56,7 @@ function getData() {
         error_counter: "tracked_errors_time",
         requested_counter: "tracked_requests_time",
         labels: ["canister","ping_type"],
-        high_watermark: "ping_time_higher_watermark",
+        high_watermark: "ping_time_high_watermark",
       }
     };
   return {
@@ -68,7 +68,7 @@ function getData() {
       error_counter: "transfer_errors",
       requested_counter: "transfer_requests",
       labels: ["aggregator"],
-      high_watermark: "transfer_time_higher_watermark",
+      high_watermark: "transfer_time_high_watermark",
     }
   };
 }
