@@ -35,8 +35,7 @@ function getData() {
         error_counter: "tracked_errors_function",
         requested_counter: "tracked_requests_function",
         labels: ["function"],
-        higher_watermark: "tracked_time_function_higher_watermark",
-        lowest_watermark: "tracked_time_function_lowest_watermark",
+        high_watermark: "tracked_time_function_higher_watermark",
       }
     };
   if(script_mode === "PING")
@@ -46,19 +45,18 @@ function getData() {
           name: "ping_time", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
-        histogram_response: {
+        histogram_to_canister: {
           name: "ping_time_to_canister", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
-        histogram_call: {
+        histogram_from_canister: {
           name: "ping_time_from_canister", 
           buckets: Prometheus.linearBuckets(0, 1000, 25)
         },
         error_counter: "tracked_errors_time",
         requested_counter: "tracked_requests_time",
         labels: ["canister","ping_type"],
-        higher_watermark: "ping_time_higher_watermark",
-        lowest_watermark: "ping_time_lowest_watermark",
+        high_watermark: "ping_time_higher_watermark",
       }
     };
   return {
@@ -70,8 +68,7 @@ function getData() {
       error_counter: "transfer_errors",
       requested_counter: "transfer_requests",
       labels: ["aggregator"],
-      higher_watermark: "transfer_time_higher_watermark",
-      lowest_watermark: "transfer_time_lowest_watermark",
+      high_watermark: "transfer_time_higher_watermark",
     }
   };
 }
@@ -84,21 +81,21 @@ const transfers_time = new Prometheus.Histogram({
 });
 register.registerMetric(transfers_time);
 
-const time_response = new Prometheus.Histogram({
-  name: getData().data.histogram_response?.name || "ping_time_response",
+const to_canister = new Prometheus.Histogram({
+  name: getData().data.histogram_to_canister?.name || "ping_time_response",
   help: "Count of time took to process",
   labelNames: getData().data.labels,
-  buckets: getData().data.histogram_response?.buckets || [],
+  buckets: getData().data.histogram_to_canister?.buckets || [],
 });
-register.registerMetric(time_response);
+register.registerMetric(to_canister);
 
-const time_call = new Prometheus.Histogram({
-  name: getData().data.histogram_call?.name || "ping_time_call",
+const from_canister = new Prometheus.Histogram({
+  name: getData().data.histogram_from_canister?.name || "ping_time_call",
   help: "Count of time took to process",
   labelNames: getData().data.labels,
-  buckets: getData().data.histogram_call?.buckets  || [],
+  buckets: getData().data.histogram_from_canister?.buckets  || [],
 });
-register.registerMetric(time_call);
+register.registerMetric(from_canister);
 
 const error_counter = new Prometheus.Counter({
   name: getData().data.error_counter,
@@ -114,19 +111,12 @@ const requested_counter = new Prometheus.Counter({
 });
 register.registerMetric(requested_counter);
 
-const higher_watermark = new Prometheus.Gauge({
-  name: getData().data.higher_watermark,
+const high_watermark = new Prometheus.Gauge({
+  name: getData().data.high_watermark,
   help: "Shows highest value",
   labelNames: getData().data.labels,
 });
-register.registerMetric(higher_watermark);
-
-const lowest_watermark = new Prometheus.Gauge({
-  name: getData().data.lowest_watermark,
-  help: "Shows Lowest value",
-  labelNames: getData().data.labels,
-});
-register.registerMetric(lowest_watermark);
+register.registerMetric(high_watermark);
 
 register.setDefaultLabels({
   app: "hpl-script",
@@ -179,20 +169,16 @@ async function controller(request: Request): Promise<Response> {
 }
 
 function setWaterMark(seconds: number, labels: any,label:string) {
-  if(!global.date || !global.higher_gauge || !global.lower_gauge || (Date.now() > (global.date + RESET_INTERVAL))){
-    global.date = Date.now();
-    global.higher_gauge = new Map();
-    global.lower_gauge = new Map();
+  if(!global.high_gauge || !global.high_gauge_dates){
+    global.high_gauge = new Map();
+    global.high_gauge_dates = new Map();
   }
-  const reslh = global.higher_gauge.get(label);
-  if(!reslh || Number(reslh) < seconds){
-    global.higher_gauge.set(label,seconds);
-    higher_watermark.labels(labels).set(seconds);
-  }
-  const resl = global.lower_gauge.get(label);
-  if(!resl || Number(resl) > seconds){
-    global.lower_gauge.set(label,seconds);
-    lowest_watermark.labels(labels).set(seconds);
+  const reslh = global.high_gauge.get(label);
+  const resl_date = global.high_gauge_dates.get(label);
+  if((!reslh || !resl_date) || Number(reslh) < seconds || (Date.now() > (Number(resl_date) + RESET_INTERVAL))){
+    global.high_gauge.set(label, seconds);
+    global.high_gauge_dates.set(label, Date.now());
+    high_watermark.labels(labels).set(seconds);
   }
 }
 
@@ -342,31 +328,9 @@ async function StartProcessPing() {
             error_counter.labels({ canister: ledger_principal }).inc();
           });
           const end = Date.now()
-          const newValue = Number(value)/1_000_000;
-          // end timer
-          const seconds = end - start;
-          let responsetime = Number(newValue) - start;
-          let calltime = end - Number(newValue)
-          if (responsetime < 0) responsetime = 0;
-          if (calltime < 0) calltime = 0;
-
-          log(["localId:",localId,"canister:",ledger_principal,"seconds:",seconds]);
-          log(["localId:",localId,"canister:",ledger_principal,"responsetime:",responsetime]);
-          log(["localId:",localId,"canister:",ledger_principal,"calltime:",calltime]);
         // register time
         try {
-          transfers_time
-            .labels({ canister: ledger_principal })
-            .observe(seconds);
-          time_response
-            .labels({ canister: ledger_principal })
-            .observe(responsetime);
-          time_call
-            .labels({ canister: ledger_principal })
-            .observe(calltime);
-          setWaterMark(seconds,{canister: ledger_principal, ping_type:"ping_time"},ledger_principal);
-          setWaterMark(calltime,{canister: ledger_principal, ping_type:"ping_time_from_canister"},ledger_principal+"_from_canister");
-          setWaterMark(responsetime,{canister: ledger_principal, ping_type:"ping_time_to_canister"},ledger_principal+"_to_canister");
+          setValuesPing(localId,ledger_principal,start,end,Number(value))
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -395,30 +359,9 @@ async function StartProcessPing() {
             error_counter.labels({ canister: agg }).inc();
           });
         const end = Date.now()
-        const newValue = Number(value)/1_000_000;
-        // end timer
-        const seconds = end - start;
-        let responsetime = Number(newValue) - start;
-        let calltime = end - Number(newValue)
-        if (responsetime < 0) responsetime = 0;
-        if (calltime < 0) calltime = 0;
-        log(["localId:",localId,"canister:",agg,"seconds:",seconds]);
-        log(["localId:",localId,"canister:",agg,"responsetime:",responsetime]);
-        log(["localId:",localId,"canister:",agg,"calltime:",calltime]);
         // register time
         try {
-          transfers_time
-            .labels({ canister: agg })
-            .observe(seconds);
-          time_response
-            .labels({ canister: agg })
-            .observe(responsetime);
-          time_call
-            .labels({ canister: agg })
-            .observe(calltime);
-            setWaterMark(seconds,{canister: agg, ping_type:"ping_time"},agg);
-            setWaterMark(calltime,{canister: agg, ping_type:"ping_time_from_canister"},agg+"_from_canister");
-            setWaterMark(responsetime,{canister: agg, ping_type:"ping_time_to_canister"},agg+"_to_canister");
+            setValuesPing(localId,agg,start,end,Number(value))
         } catch (error) {
           console.log("error", error);
           reject(error);
@@ -433,6 +376,50 @@ async function StartProcessPing() {
 
     Promise.all(promises);
   // }
+}
+
+function setValuesPing(
+  localId: string,
+  canister: string,
+  start: number,
+  end: number,
+  value: number
+) {
+  const newValue = Number(value) / 1_000_000;
+  const seconds = end - start;
+  let t_canister = Number(newValue) - start;
+  let f_canister = end - Number(newValue);
+  if (t_canister < 0) t_canister = 0;
+  if (f_canister < 0) f_canister = 0;
+  log(["localId:", localId, "canister:", canister, "seconds:", seconds]);
+  log(["localId:", localId, "canister:", canister, "to_canister:", t_canister]);
+  log([
+    "localId:",
+    localId,
+    "canister:",
+    canister,
+    "from_canister:",
+    f_canister,
+  ]);
+  // register time
+  transfers_time.labels({ canister: canister }).observe(seconds);
+  to_canister.labels({ canister: canister }).observe(t_canister);
+  from_canister.labels({ canister: canister }).observe(f_canister);
+  setWaterMark(
+    seconds,
+    { canister: canister, ping_type: "ping_time" },
+    canister
+  );
+  setWaterMark(
+    f_canister,
+    { canister: canister, ping_type: "ping_time_from_canister" },
+    canister + "_from_canister"
+  );
+  setWaterMark(
+    t_canister,
+    { canister: canister, ping_type: "ping_time_to_canister" },
+    canister + "_to_canister"
+  );
 }
 
 async function updateVirtualAccount(localId: string, wallet?: Identity, ) {
