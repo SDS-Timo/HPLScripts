@@ -12,6 +12,7 @@ services:
       - PRINCIPAL1_SECRET_KEY=Wallet123HPlScripts
       - PRINCIPAL2_SECRET_KEY=Wallet123HPlScripts2
       - INTERVAL_TIME=*/5 * * * * *
+      - EXTRA_AGGREGATORS=tdjwp-lyaaa-aaaam-ab4uq-cai|dwqfg-iiaaa-aaaal-adnva-cai|masfb-qqaaa-aaaal-qdbrq-cai|zvyvp-4qaaa-aaaak-qc2za-cai|jjdh5-2yaaa-aaaaj-qa3lq-cai
     volumes: 
       - ./logs:/home/bun/app/logs
     ports:

@@ -19,6 +19,7 @@ const ledger_principal = process.env.LEDGER_PRINCIPAL || "";
 const interval_time = process.env.INTERVAL_TIME || "*/10 * * * * *";
 const script_mode = process.env.SCRIPT_MODE || "ALL";
 const AGENT_HOST = process.env.AGENT_HOST || "https://icp0.io";
+const EXTRA_AGGREGATORS = process.env.EXTRA_AGGREGATORS || "";
 const RESET_INTERVAL = (process.env.RESET_INTERVAL || 61000 ) as number;
 
 /// ============== PROMETHEUS ==============
@@ -344,6 +345,41 @@ async function StartProcessPing() {
     for (const aggregator of aggregators) {
       const promise = new Promise(async (resolve, reject) => {
         const agg = aggregator.canisterPrincipal.toText()
+        //requested counter
+        requested_counter.labels({ canister: agg }).inc();
+
+        // start timer
+        const start = Date.now();
+        const localId = getId();
+        log(["localId:",localId,"canister:",agg,"Start"]);
+        // update virtual account
+       const value = await PingAgg(localId,agg,wallet!)
+          .then((a) => a)
+          .catch((error) => {
+            console.log("error", error);
+            error_counter.labels({ canister: agg }).inc();
+          });
+        const end = Date.now()
+        // register time
+        try {
+            setValuesPing(localId,agg,start,end,Number(value))
+        } catch (error) {
+          console.log("error", error);
+          reject(error);
+        }
+        
+        
+        global.transactions = [];
+        resolve(true);
+      })
+      promises.push(promise);
+    }
+
+    const extra_aggregators = EXTRA_AGGREGATORS.split("|");
+
+    for (const e_aggregator of extra_aggregators) {
+      const promise = new Promise(async (resolve, reject) => {
+        const agg = e_aggregator
         //requested counter
         requested_counter.labels({ canister: agg }).inc();
 
